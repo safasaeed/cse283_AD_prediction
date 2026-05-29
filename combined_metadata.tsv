@@ -1,717 +1,717 @@
-	study	sample_id	subject_id	sex	age	type	group	apoe	apoe_carrier	apoe_dose
-0	burgos_dbgap	01_16_CSF	01_16	male	87.0	CSF	AD	34	apoe4	apoe4
-1	burgos_dbgap	01_16_SER	01_16	male	87.0	serum	AD	34	apoe4	apoe4
-2	burgos_dbgap	01_18_CSF	01_18	male	86.0	CSF	AD	33	no_apoe4	no_apoe4
-3	burgos_dbgap	01_18_SER	01_18	male	86.0	serum	AD	33	no_apoe4	no_apoe4
-4	burgos_dbgap	01_37_CSF	01_37	female	88.0	CSF	control	34	apoe4	apoe4
-5	burgos_dbgap	01_37_SER	01_37	female	88.0	serum	control	34	apoe4	apoe4
-6	burgos_dbgap	01_44_CSF	01_44	female	78.0	CSF	control	33	no_apoe4	no_apoe4
-7	burgos_dbgap	01_44_SER	01_44	female	78.0	serum	control	33	no_apoe4	no_apoe4
-8	burgos_dbgap	01_46_CSF	01_46	female	90.0	CSF	control	33	no_apoe4	no_apoe4
-9	burgos_dbgap	01_46_SER	01_46	female	90.0	serum	control	33	no_apoe4	no_apoe4
-10	burgos_dbgap	01_48_CSF	01_48	female	97.0	CSF	AD	33	no_apoe4	no_apoe4
-11	burgos_dbgap	02_04_CSF	02_04	female	80.0	CSF	control	33	no_apoe4	no_apoe4
-12	burgos_dbgap	02_04_SER	02_04	female	80.0	serum	control	33	no_apoe4	no_apoe4
-13	burgos_dbgap	02_07_CSF	02_07	male	83.0	CSF	AD	34	apoe4	apoe4
-14	burgos_dbgap	02_33_CSF	02_33	male	85.0	CSF	control	33	no_apoe4	no_apoe4
-15	burgos_dbgap	02_33_SER	02_33	male	85.0	serum	control	33	no_apoe4	no_apoe4
-16	burgos_dbgap	02_39_CSF	02_39	male	75.0	CSF	AD	34	apoe4	apoe4
-17	burgos_dbgap	02_39_SER	02_39	male	75.0	serum	AD	34	apoe4	apoe4
-18	burgos_dbgap	03_02_CSF	03_02	male	76.0	CSF	AD	34	apoe4	apoe4
-19	burgos_dbgap	03_02_SER	03_02	male	76.0	serum	AD	34	apoe4	apoe4
-20	burgos_dbgap	03_07_CSF	03_07	male	67.0	CSF	AD	34	apoe4	apoe4
-21	burgos_dbgap	03_07_SER	03_07	male	67.0	serum	AD	34	apoe4	apoe4
-22	burgos_dbgap	03_10_CSF	03_10	male	89.0	CSF	control	34	apoe4	apoe4
-23	burgos_dbgap	03_10_SER	03_10	male	89.0	serum	control	34	apoe4	apoe4
-24	burgos_dbgap	03_12_CSF	03_12	female	88.0	CSF	control	34	apoe4	apoe4
-25	burgos_dbgap	03_12_SER	03_12	female	88.0	serum	control	34	apoe4	apoe4
-26	burgos_dbgap	03_15_CSF	03_15	male	80.0	CSF	control	33	no_apoe4	no_apoe4
-27	burgos_dbgap	03_18_CSF	03_18	female	77.0	CSF	AD	34	apoe4	apoe4
-28	burgos_dbgap	03_18_SER	03_18	female	77.0	serum	AD	34	apoe4	apoe4
-29	burgos_dbgap	03_21_CSF	03_21	female	84.0	CSF	AD	33	no_apoe4	no_apoe4
-30	burgos_dbgap	03_21_SER	03_21	female	84.0	serum	AD	33	no_apoe4	no_apoe4
-31	burgos_dbgap	03_28_CSF	03_28	male	80.0	CSF	control	33	no_apoe4	no_apoe4
-32	burgos_dbgap	03_28_SER	03_28	male	80.0	serum	control	33	no_apoe4	no_apoe4
-33	burgos_dbgap	03_30_CSF	03_30	female	60.0	CSF	AD	34	apoe4	apoe4
-34	burgos_dbgap	03_30_SER	03_30	female	60.0	serum	AD	34	apoe4	apoe4
-35	burgos_dbgap	03_33_CSF	03_33	female	74.0	CSF	AD	24	apoe4	apoe4
-36	burgos_dbgap	03_33_SER	03_33	female	74.0	serum	AD	24	apoe4	apoe4
-37	burgos_dbgap	03_34_CSF	03_34	female	88.0	CSF	AD	34	apoe4	apoe4
-38	burgos_dbgap	03_34_SER	03_34	female	88.0	serum	AD	34	apoe4	apoe4
-39	burgos_dbgap	03_38_CSF	03_38	female	84.0	CSF	AD	34	apoe4	apoe4
-40	burgos_dbgap	03_39_CSF	03_39	male	86.0	CSF	control	33	no_apoe4	no_apoe4
-41	burgos_dbgap	03_39_SER	03_39	male	86.0	serum	control	33	no_apoe4	no_apoe4
-42	burgos_dbgap	03_54_CSF	03_54	male	76.0	CSF	AD	44	apoe4	apoe44
-43	burgos_dbgap	03_54_SER	03_54	male	76.0	serum	AD	44	apoe4	apoe44
-44	burgos_dbgap	03_58_CSF	03_58	female	85.0	CSF	control	34	apoe4	apoe4
-45	burgos_dbgap	03_58_SER	03_58	female	85.0	serum	control	34	apoe4	apoe4
-46	burgos_dbgap	04_05_SER	04_05	female	82.0	serum	control	33	no_apoe4	no_apoe4
-47	burgos_dbgap	04_22_CSF	04_22	male	80.0	CSF	AD	34	apoe4	apoe4
-48	burgos_dbgap	04_22_SER	04_22	male	80.0	serum	AD	34	apoe4	apoe4
-49	burgos_dbgap	04_24_CSF	04_24	male	78.0	CSF	AD	34	apoe4	apoe4
-50	burgos_dbgap	04_30_CSF	04_30	female	78.0	CSF	control	23	no_apoe4	no_apoe4
-51	burgos_dbgap	04_30_SER	04_30	female	78.0	serum	control	23	no_apoe4	no_apoe4
-52	burgos_dbgap	04_31_CSF	04_31	male	82.0	CSF	control	34	apoe4	apoe4
-53	burgos_dbgap	04_31_SER	04_31	male	82.0	serum	control	34	apoe4	apoe4
-54	burgos_dbgap	04_38_CSF	04_38	female	83.0	CSF	control	22	no_apoe4	no_apoe4
-55	burgos_dbgap	04_38_SER	04_38	female	83.0	serum	control	22	no_apoe4	no_apoe4
-56	burgos_dbgap	04_54_CSF	04_54	male	75.0	CSF	AD	33	no_apoe4	no_apoe4
-57	burgos_dbgap	04_54_SER	04_54	male	75.0	serum	AD	33	no_apoe4	no_apoe4
-58	burgos_dbgap	04_62_CSF	04_62	female	86.0	CSF	control	33	no_apoe4	no_apoe4
-59	burgos_dbgap	04_62_SER	04_62	female	86.0	serum	control	33	no_apoe4	no_apoe4
-60	burgos_dbgap	05_10_SER	05_10	male	91.0	serum	control	33	no_apoe4	no_apoe4
-61	burgos_dbgap	05_11_CSF	05_11	female	86.0	CSF	AD	33	no_apoe4	no_apoe4
-62	burgos_dbgap	05_11_SER	05_11	female	86.0	serum	AD	33	no_apoe4	no_apoe4
-63	burgos_dbgap	05_16_CSF	05_16	male	82.0	CSF	control	33	no_apoe4	no_apoe4
-64	burgos_dbgap	05_16_SER	05_16	male	82.0	serum	control	33	no_apoe4	no_apoe4
-65	burgos_dbgap	05_19_CSF	05_19	female	75.0	CSF	AD	33	no_apoe4	no_apoe4
-66	burgos_dbgap	05_19_SER	05_19	female	75.0	serum	AD	33	no_apoe4	no_apoe4
-67	burgos_dbgap	05_20_CSF	05_20	male	75.0	CSF	control	33	no_apoe4	no_apoe4
-68	burgos_dbgap	05_20_SER	05_20	male	75.0	serum	control	33	no_apoe4	no_apoe4
-69	burgos_dbgap	05_21_CSF	05_21	male	91.0	CSF	control	33	no_apoe4	no_apoe4
-70	burgos_dbgap	05_21_SER	05_21	male	91.0	serum	control	33	no_apoe4	no_apoe4
-71	burgos_dbgap	05_39_CSF	05_39	male	82.0	CSF	AD	34	apoe4	apoe4
-72	burgos_dbgap	05_52_CSF	05_52	female	70.0	CSF	AD	33	no_apoe4	no_apoe4
-73	burgos_dbgap	05_52_SER	05_52	female	70.0	serum	AD	33	no_apoe4	no_apoe4
-74	burgos_dbgap	06_05_CSF	06_05	female	88.0	CSF	control	23	no_apoe4	no_apoe4
-75	burgos_dbgap	06_05_SER	06_05	female	88.0	serum	control	23	no_apoe4	no_apoe4
-76	burgos_dbgap	06_08_CSF	06_08	male	84.0	CSF	control	33	no_apoe4	no_apoe4
-77	burgos_dbgap	06_08_SER	06_08	male	84.0	serum	control	33	no_apoe4	no_apoe4
-78	burgos_dbgap	06_12_CSF	06_12	female	74.0	CSF	AD	34	apoe4	apoe4
-79	burgos_dbgap	06_12_SER	06_12	female	74.0	serum	AD	34	apoe4	apoe4
-80	burgos_dbgap	06_15_CSF	06_15	female	87.0	CSF	control	23	no_apoe4	no_apoe4
-81	burgos_dbgap	06_15_SER	06_15	female	87.0	serum	control	23	no_apoe4	no_apoe4
-82	burgos_dbgap	06_19_CSF	06_19	male	84.0	CSF	control	23	no_apoe4	no_apoe4
-83	burgos_dbgap	06_19_SER	06_19	male	84.0	serum	control	23	no_apoe4	no_apoe4
-84	burgos_dbgap	06_21_CSF	06_21	male	73.0	CSF	control	23	no_apoe4	no_apoe4
-85	burgos_dbgap	06_21_SER	06_21	male	73.0	serum	control	23	no_apoe4	no_apoe4
-86	burgos_dbgap	06_27_CSF	06_27	male	78.0	CSF	control	33	no_apoe4	no_apoe4
-87	burgos_dbgap	06_27_SER	06_27	male	78.0	serum	control	33	no_apoe4	no_apoe4
-88	burgos_dbgap	06_32_SER	06_32	female	77.0	serum	control	33	no_apoe4	no_apoe4
-89	burgos_dbgap	06_35_CSF	06_35	male	89.0	CSF	control	33	no_apoe4	no_apoe4
-90	burgos_dbgap	06_35_SER	06_35	male	89.0	serum	control	33	no_apoe4	no_apoe4
-91	burgos_dbgap	06_52_CSF	06_52	female	78.0	CSF	AD	33	no_apoe4	no_apoe4
-92	burgos_dbgap	06_52_SER	06_52	female	78.0	serum	AD	33	no_apoe4	no_apoe4
-93	burgos_dbgap	06_63_CSF	06_63	female	84.0	CSF	control	33	no_apoe4	no_apoe4
-94	burgos_dbgap	06_63_SER	06_63	female	84.0	serum	control	33	no_apoe4	no_apoe4
-95	burgos_dbgap	07_02_CSF	07_02	female	87.0	CSF	AD	33	no_apoe4	no_apoe4
-96	burgos_dbgap	07_02_SER	07_02	female	87.0	serum	AD	33	no_apoe4	no_apoe4
-97	burgos_dbgap	07_08_CSF	07_08	female	70.0	CSF	AD	34	apoe4	apoe4
-98	burgos_dbgap	07_08_SER	07_08	female	70.0	serum	AD	34	apoe4	apoe4
-99	burgos_dbgap	07_10_CSF	07_10	female	90.0	CSF	control	33	no_apoe4	no_apoe4
-100	burgos_dbgap	07_11_CSF	07_11	female	75.0	CSF	control	34	apoe4	apoe4
-101	burgos_dbgap	07_11_SER	07_11	female	75.0	serum	control	34	apoe4	apoe4
-102	burgos_dbgap	07_20_CSF	07_20	female	57.0	CSF	AD	33	no_apoe4	no_apoe4
-103	burgos_dbgap	07_20_SER	07_20	female	57.0	serum	AD	33	no_apoe4	no_apoe4
-104	burgos_dbgap	07_34_CSF	07_34	female	86.0	CSF	AD	33	no_apoe4	no_apoe4
-105	burgos_dbgap	07_34_SER	07_34	female	86.0	serum	AD	33	no_apoe4	no_apoe4
-106	burgos_dbgap	07_42_CSF	07_42	female	65.0	CSF	AD	34	apoe4	apoe4
-107	burgos_dbgap	07_42_SER	07_42	female	65.0	serum	AD	34	apoe4	apoe4
-108	burgos_dbgap	07_54_CSF	07_54	female	82.0	CSF	AD	33	no_apoe4	no_apoe4
-109	burgos_dbgap	07_57_CSF	07_57	female	91.0	CSF	AD		apoe4	apoe44
-110	burgos_dbgap	07_57_SER	07_57	female	91.0	serum	AD		apoe4	apoe44
-111	burgos_dbgap	07_58_CSF	07_58	female	88.0	CSF	control	33	no_apoe4	no_apoe4
-112	burgos_dbgap	07_58_SER	07_58	female	88.0	serum	control	33	no_apoe4	no_apoe4
-113	burgos_dbgap	07_63_CSF	07_63	female	87.0	CSF	control	33	no_apoe4	no_apoe4
-114	burgos_dbgap	07_63_SER	07_63	female	87.0	serum	control	33	no_apoe4	no_apoe4
-115	burgos_dbgap	07_64_CSF	07_64	female	91.0	CSF	AD	23	no_apoe4	no_apoe4
-116	burgos_dbgap	07_64_SER	07_64	female	91.0	serum	AD	23	no_apoe4	no_apoe4
-117	burgos_dbgap	07_73_CSF	07_73	female	76.0	CSF	control	34	apoe4	apoe4
-118	burgos_dbgap	07_73_SER	07_73	female	76.0	serum	control	34	apoe4	apoe4
-119	burgos_dbgap	08_06_CSF	08_06	male	79.0	CSF	AD	34	apoe4	apoe4
-120	burgos_dbgap	08_06_SER	08_06	male	79.0	serum	AD	34	apoe4	apoe4
-121	burgos_dbgap	08_29_CSF	08_29	male	90.0	CSF	AD	33	no_apoe4	no_apoe4
-122	burgos_dbgap	08_29_SER	08_29	male	90.0	serum	AD	33	no_apoe4	no_apoe4
-123	burgos_dbgap	08_35_CSF	08_35	male	87.0	CSF	control	34	apoe4	apoe4
-124	burgos_dbgap	08_35_SER	08_35	male	87.0	serum	control	34	apoe4	apoe4
-125	burgos_dbgap	08_37_CSF	08_37	male	87.0	CSF	AD	23	no_apoe4	no_apoe4
-126	burgos_dbgap	08_37_SER	08_37	male	87.0	serum	AD	23	no_apoe4	no_apoe4
-127	burgos_dbgap	08_40_CSF	08_40	male	76.0	CSF	control	34	apoe4	apoe4
-128	burgos_dbgap	08_40_SER	08_40	male	76.0	serum	control	34	apoe4	apoe4
-129	burgos_dbgap	08_45_CSF	08_45	male	78.0	CSF	AD	34	apoe4	apoe4
-130	burgos_dbgap	08_45_SER	08_45	male	78.0	serum	AD	34	apoe4	apoe4
-131	burgos_dbgap	08_52_CSF	08_52	male	94.0	CSF	control	33	no_apoe4	no_apoe4
-132	burgos_dbgap	08_52_SER	08_52	male	94.0	serum	control	33	no_apoe4	no_apoe4
-133	burgos_dbgap	08_55_CSF	08_55	male	71.0	CSF	control	33	no_apoe4	no_apoe4
-134	burgos_dbgap	08_55_SER	08_55	male	71.0	serum	control	33	no_apoe4	no_apoe4
-135	burgos_dbgap	08_69_CSF	08_69	female	86.0	CSF	AD	34	apoe4	apoe4
-136	burgos_dbgap	08_69_SER	08_69	female	86.0	serum	AD	34	apoe4	apoe4
-137	burgos_dbgap	08_77_CSF	08_77	female	91.0	CSF	control	33	no_apoe4	no_apoe4
-138	burgos_dbgap	08_77_SER	08_77	female	91.0	serum	control	33	no_apoe4	no_apoe4
-139	burgos_dbgap	08_82_SER	08_82	male	86.0	serum	AD	33	no_apoe4	no_apoe4
-140	burgos_dbgap	08_85_CSF	08_85	male	82.0	CSF	control	23	no_apoe4	no_apoe4
-141	burgos_dbgap	08_85_SER	08_85	male	82.0	serum	control	23	no_apoe4	no_apoe4
-142	burgos_dbgap	08_88_CSF	08_88	male	65.0	CSF	control	33	no_apoe4	no_apoe4
-143	burgos_dbgap	08_88_SER	08_88	male	65.0	serum	control	33	no_apoe4	no_apoe4
-144	burgos_dbgap	09_14_CSF	09_14	female	89.0	CSF	AD	33	no_apoe4	no_apoe4
-145	burgos_dbgap	09_14_SER	09_14	female	89.0	serum	AD	33	no_apoe4	no_apoe4
-146	burgos_dbgap	09_20_CSF	09_20	female	99.0	CSF	control	33	no_apoe4	no_apoe4
-147	burgos_dbgap	09_20_SER	09_20	female	99.0	serum	control	33	no_apoe4	no_apoe4
-148	burgos_dbgap	09_31_CSF	09_31	male	92.0	CSF	control	33	no_apoe4	no_apoe4
-149	burgos_dbgap	09_31_SER	09_31	male	92.0	serum	control	33	no_apoe4	no_apoe4
-150	burgos_dbgap	09_35_CSF	09_35	male	38.0	CSF	control	33	no_apoe4	no_apoe4
-151	burgos_dbgap	09_35_SER	09_35	male	38.0	serum	control	33	no_apoe4	no_apoe4
-152	burgos_dbgap	09_39_CSF	09_39	male	82.0	CSF	AD	34	apoe4	apoe4
-153	burgos_dbgap	09_39_SER	09_39	male	82.0	serum	AD	34	apoe4	apoe4
-154	burgos_dbgap	09_42_CSF	09_42	male	85.0	CSF	AD	33	no_apoe4	no_apoe4
-155	burgos_dbgap	09_42_SER	09_42	male	85.0	serum	AD	33	no_apoe4	no_apoe4
-156	burgos_dbgap	09_49_CSF	09_49	male	97.0	CSF	control	33	no_apoe4	no_apoe4
-157	burgos_dbgap	09_50_CSF	09_50	male	53.0	CSF	control	33	no_apoe4	no_apoe4
-158	burgos_dbgap	09_50_SER	09_50	male	53.0	serum	control	33	no_apoe4	no_apoe4
-159	burgos_dbgap	09_57_CSF	09_57	male	80.0	CSF	control	22	no_apoe4	no_apoe4
-160	burgos_dbgap	09_57_SER	09_57	male	80.0	serum	control	22	no_apoe4	no_apoe4
-161	burgos_dbgap	10_13_CSF	10_13	male	85.0	CSF	control		apoe4	apoe44
-162	burgos_dbgap	10_13_SER	10_13	male	85.0	serum	control		apoe4	apoe44
-163	burgos_dbgap	10_16-CSF	10_16	female	68.0	CSF	AD	33	no_apoe4	no_apoe4
-164	burgos_dbgap	10_16_SER	10_16	female	68.0	serum	AD	33	no_apoe4	no_apoe4
-165	burgos_dbgap	10_22_CSF	10_22	female	59.0	CSF	control	33	no_apoe4	no_apoe4
-166	burgos_dbgap	10_22_SER	10_22	female	59.0	serum	control	33	no_apoe4	no_apoe4
-167	burgos_dbgap	10_26_CSF	10_26	female	95.0	CSF	control	33	no_apoe4	no_apoe4
-168	burgos_dbgap	10_26_SER	10_26	female	95.0	serum	control	33	no_apoe4	no_apoe4
-169	burgos_dbgap	10_32_CSF	10_32	female	84.0	CSF	control	34	apoe4	apoe4
-170	burgos_dbgap	10_32_SER	10_32	female	84.0	serum	control	34	apoe4	apoe4
-171	burgos_dbgap	10_36_CSF	10_36	male	90.0	CSF	AD	33	no_apoe4	no_apoe4
-172	burgos_dbgap	10_36_SER	10_36	male	90.0	serum	AD	33	no_apoe4	no_apoe4
-173	burgos_dbgap	10_39_CSF	10_39	male	93.0	CSF	control	33	no_apoe4	no_apoe4
-174	burgos_dbgap	10_39_SER	10_39	male	93.0	serum	control	33	no_apoe4	no_apoe4
-175	burgos_dbgap	95_36_CSF	95_36	female	92.0	CSF	control	33	no_apoe4	no_apoe4
-176	burgos_dbgap	95_36_SER	95_36	female	92.0	serum	control	33	no_apoe4	no_apoe4
-177	burgos_dbgap	95_39_SER	95_39	male	68.0	serum	control	33	no_apoe4	no_apoe4
-178	burgos_dbgap	95_40_CSF	95_40	male	74.0	CSF	control	33	no_apoe4	no_apoe4
-179	burgos_dbgap	95_40_SER	95_40	male	74.0	serum	control	33	no_apoe4	no_apoe4
-180	burgos_dbgap	96_04-SER	96_04	male	89.0	serum	AD	34	apoe4	apoe4
-181	burgos_dbgap	96_09-CSF	96_09	male	75.0	CSF	AD	33	no_apoe4	no_apoe4
-182	burgos_dbgap	96_09-SER	96_09	male	75.0	serum	AD	33	no_apoe4	no_apoe4
-183	burgos_dbgap	96_11_CSF	96_11	male	83.0	CSF	AD	33	no_apoe4	no_apoe4
-184	burgos_dbgap	96_11_SER	96_11	male	83.0	serum	AD	33	no_apoe4	no_apoe4
-185	burgos_dbgap	96_17-CSF	96_17	female	86.0	CSF	AD	34	apoe4	apoe4
-186	burgos_dbgap	96_17_SER	96_17	female	86.0	serum	AD	34	apoe4	apoe4
-187	burgos_dbgap	96_18_CSF	96_18	female	79.0	CSF	AD	44	apoe4	apoe44
-188	burgos_dbgap	96_18_SER	96_18	female	79.0	serum	AD	44	apoe4	apoe44
-189	burgos_dbgap	96_22_SER	96_22	male	94.0	serum	control	33	no_apoe4	no_apoe4
-190	burgos_dbgap	96_29_CSF	96_29	male	77.0	CSF	AD	34	apoe4	apoe4
-191	burgos_dbgap	96_29_SER	96_29	male	77.0	serum	AD	34	apoe4	apoe4
-192	burgos_dbgap	96_30_CSF	96_30	male	90.0	CSF	control	33	no_apoe4	no_apoe4
-193	burgos_dbgap	96_30_SER	96_30	male	90.0	serum	control	33	no_apoe4	no_apoe4
-194	burgos_dbgap	96_31_CSF	96_31	male	88.0	CSF	AD	33	no_apoe4	no_apoe4
-195	burgos_dbgap	96_31_SER	96_31	male	88.0	serum	AD	33	no_apoe4	no_apoe4
-196	burgos_dbgap	96_35_CSF	96_35	male	84.0	CSF	control	23	no_apoe4	no_apoe4
-197	burgos_dbgap	96_35_SER	96_35	male	84.0	serum	control	23	no_apoe4	no_apoe4
-198	burgos_dbgap	96_46_CSF	96_46	male	87.0	CSF	AD	44	apoe4	apoe44
-199	burgos_dbgap	96_46_SER	96_46	male	87.0	serum	AD	44	apoe4	apoe44
-200	burgos_dbgap	97_17_CSF	97_17	male	78.0	CSF	control	33	no_apoe4	no_apoe4
-201	burgos_dbgap	97_17_SER	97_17	male	78.0	serum	control	33	no_apoe4	no_apoe4
-202	burgos_dbgap	97_18_CSF	97_18	female	93.0	CSF	AD	44	apoe4	apoe44
-203	burgos_dbgap	97_18_SER	97_18	female	93.0	serum	AD	44	apoe4	apoe44
-204	burgos_dbgap	97_21_CSF	97_21	male	81.0	CSF	AD	34	apoe4	apoe4
-205	burgos_dbgap	97_21_SER	97_21	male	81.0	serum	AD	34	apoe4	apoe4
-206	burgos_dbgap	97_22_CSF	97_22	female	81.0	CSF	AD	34	apoe4	apoe4
-207	burgos_dbgap	97_22_SER	97_22	female	81.0	serum	AD	34	apoe4	apoe4
-208	burgos_dbgap	97_24_CSF	97_24	female	85.0	CSF	AD	34	apoe4	apoe4
-209	burgos_dbgap	97_24_SER	97_24	female	85.0	serum	AD	34	apoe4	apoe4
-210	burgos_dbgap	97_25_SER	97_25	female	84.0	serum	AD	33	no_apoe4	no_apoe4
-211	burgos_dbgap	97_37_CSF	97_37	male	83.0	CSF	control	34	apoe4	apoe4
-212	burgos_dbgap	97_37_SER	97_37	male	83.0	serum	control	34	apoe4	apoe4
-213	burgos_dbgap	97_39_CSF	97_39	female	78.0	CSF	AD	34	apoe4	apoe4
-214	burgos_dbgap	97_44_CSF	97_44	male	75.0	CSF	AD	34	apoe4	apoe4
-215	burgos_dbgap	97_44_SER	97_44	male	75.0	serum	AD	34	apoe4	apoe4
-216	burgos_dbgap	97_45_CSF	97_45	male	79.0	CSF	control	33	no_apoe4	no_apoe4
-217	burgos_dbgap	97_45_SER	97_45	male	79.0	serum	control	33	no_apoe4	no_apoe4
-218	burgos_dbgap	97_48_CSF	97_48	female	90.0	CSF	AD	34	apoe4	apoe4
-219	burgos_dbgap	97_48_SER	97_48	female	90.0	serum	AD	34	apoe4	apoe4
-220	burgos_dbgap	97_51_CSF	97_51	male	84.0	CSF	control	33	no_apoe4	no_apoe4
-221	burgos_dbgap	97_51_SER	97_51	male	84.0	serum	control	33	no_apoe4	no_apoe4
-222	burgos_dbgap	98_07_CSF	98_07	male	85.0	CSF	AD	33	no_apoe4	no_apoe4
-223	burgos_dbgap	98_07_SER	98_07	male	85.0	serum	AD	33	no_apoe4	no_apoe4
-224	burgos_dbgap	98_10_CSF	98_10	male	82.0	CSF	AD	34	apoe4	apoe4
-225	burgos_dbgap	98_10_SER	98_10	male	82.0	serum	AD	34	apoe4	apoe4
-226	burgos_dbgap	98_18_CSF	98_18	female	91.0	CSF	AD	33	no_apoe4	no_apoe4
-227	burgos_dbgap	98_18_SER	98_18	female	91.0	serum	AD	33	no_apoe4	no_apoe4
-228	burgos_dbgap	98_19_CSF	98_19	female	87.0	CSF	control	33	no_apoe4	no_apoe4
-229	burgos_dbgap	98_19_SER	98_19	female	87.0	serum	control	33	no_apoe4	no_apoe4
-230	burgos_dbgap	98_22_CSF	98_22	male	90.0	CSF	control	33	no_apoe4	no_apoe4
-231	burgos_dbgap	98_22_SER	98_22	male	90.0	serum	control	33	no_apoe4	no_apoe4
-232	burgos_dbgap	98_23_SER	98_23	male	68.0	serum	control	33	no_apoe4	no_apoe4
-233	burgos_dbgap	98_30_CSF	98_30	female	86.0	CSF	AD	34	apoe4	apoe4
-234	burgos_dbgap	98_30_SER	98_30	female	86.0	serum	AD	34	apoe4	apoe4
-235	burgos_dbgap	98_34_CSF	98_34	female	73.0	CSF	control	34	apoe4	apoe4
-236	burgos_dbgap	98_34_SER	98_34	female	73.0	serum	control	34	apoe4	apoe4
-237	burgos_dbgap	98_37_CSF	98_37	male	78.0	CSF	control	34	apoe4	apoe4
-238	burgos_dbgap	98_37_SER	98_37	male	78.0	serum	control	34	apoe4	apoe4
-239	burgos_dbgap	99_02_CSF	99_02	female	70.0	CSF	control	44	apoe4	apoe44
-240	burgos_dbgap	99_02_SER	99_02	female	70.0	serum	control	44	apoe4	apoe44
-241	burgos_dbgap	99_10_CSF	99_10	female	74.0	CSF	AD	34	apoe4	apoe4
-242	burgos_dbgap	99_10_SER	99_10	female	74.0	serum	AD	34	apoe4	apoe4
-243	burgos_dbgap	99_14_CSF	99_14	male	86.0	CSF	control	33	no_apoe4	no_apoe4
-244	burgos_dbgap	99_14_SER	99_14	male	86.0	serum	control	33	no_apoe4	no_apoe4
-245	burgos_dbgap	99_15_CSF	99_15	male	83.0	CSF	AD	44	apoe4	apoe44
-246	burgos_dbgap	99_15_SER	99_15	male	83.0	serum	AD	44	apoe4	apoe44
-247	burgos_dbgap	99_25_CSF	99_25	female	76.0	CSF	control	33	no_apoe4	no_apoe4
-248	burgos_dbgap	99_25_SER	99_25	female	76.0	serum	control	33	no_apoe4	no_apoe4
-249	burgos_dbgap	99_27_CSF	99_27	female	88.0	CSF	control	34	apoe4	apoe4
-250	burgos_dbgap	99_27_SER	99_27	female	88.0	serum	control	34	apoe4	apoe4
-251	burgos_dbgap	99_28_CSF	99_28	male	80.0	CSF	AD	34	apoe4	apoe4
-252	burgos_dbgap	99_28_SER	99_28	male	80.0	serum	AD	34	apoe4	apoe4
-253	burgos_dbgap	99_29_CSF	99_29	male	81.0	CSF	control	23	no_apoe4	no_apoe4
-254	burgos_dbgap	99_43_CSF	99_43	male	80.0	CSF	AD	34	apoe4	apoe4
-255	burgos_dbgap	99_44_CSF	99_44	male	69.0	CSF	control	34	apoe4	apoe4
-256	burgos_dbgap	99_44_SER	99_44	male	69.0	serum	control	34	apoe4	apoe4
-257	burgos_dbgap	99_48_CSF	99_48	female	85.0	CSF	AD	34	apoe4	apoe4
-258	burgos_dbgap	99_48_SER	99_48	female	85.0	serum	AD	34	apoe4	apoe4
-259	burgos_dbgap	99_52_CSF	99_52	female	89.0	CSF	AD	33	no_apoe4	no_apoe4
-260	burgos_dbgap	99_52_SER	99_52	female	89.0	serum	AD	33	no_apoe4	no_apoe4
-261	burgos_dbgap	99_58_CSF	99_58	female	91.0	CSF	control	22	no_apoe4	no_apoe4
-262	burgos_dbgap	99_58_SER	99_58	female	91.0	serum	control	22	no_apoe4	no_apoe4
-263	burgos_dbgap	99_60_CSF	99_60	male	83.0	CSF	AD	34	apoe4	apoe4
-264	burgos_dbgap	99_60_SER	99_60	male	83.0	serum	AD	34	apoe4	apoe4
-265	burgos_dbgap	99_64_CSF	99_64	female	79.0	CSF	AD	34	apoe4	apoe4
-266	burgos_dbgap	99_64_SER	99_64	female	79.0	serum	AD	34	apoe4	apoe4
-0	silver_seq	AD_1_02_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-1	silver_seq	AD_1_04_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-2	silver_seq	AD_1_08_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-3	silver_seq	AD_1_09_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-4	silver_seq	AD_1_11_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-5	silver_seq	AD_1_13_1	AD_1	female	85.0	plasma	AD	34	apoe4	apoe4
-6	silver_seq	AD_2_01_1	AD_2	female	86.0	plasma	AD	33	no_apoe4	no_apoe4
-7	silver_seq	AD_2_02_1	AD_2	female	86.0	plasma	AD	33	no_apoe4	no_apoe4
-8	silver_seq	AD_2_03_1	AD_2	female	86.0	plasma	AD	33	no_apoe4	no_apoe4
-9	silver_seq	AD_2_05_1	AD_2	female	86.0	plasma	AD	33	no_apoe4	no_apoe4
-10	silver_seq	AD_2_07_1	AD_2	female	86.0	plasma	AD	33	no_apoe4	no_apoe4
-11	silver_seq	AD_3_00_1	AD_3	male	89.0	plasma	AD	33	no_apoe4	no_apoe4
-12	silver_seq	AD_3_01_1	AD_3	male	89.0	plasma	AD	33	no_apoe4	no_apoe4
-13	silver_seq	AD_3_03_1	AD_3	male	89.0	plasma	AD	33	no_apoe4	no_apoe4
-14	silver_seq	AD_3_05_1	AD_3	male	89.0	plasma	AD	33	no_apoe4	no_apoe4
-15	silver_seq	AD_3_07_1	AD_3	male	89.0	plasma	AD	33	no_apoe4	no_apoe4
-16	silver_seq	AD_4_10_1	AD_4	female	82.0	plasma	AD	33	no_apoe4	no_apoe4
-17	silver_seq	AD_4_11_1	AD_4	female	82.0	plasma	AD	33	no_apoe4	no_apoe4
-18	silver_seq	AD_4_12_1	AD_4	female	82.0	plasma	AD	33	no_apoe4	no_apoe4
-19	silver_seq	AD_4_13_1	AD_4	female	82.0	plasma	AD	33	no_apoe4	no_apoe4
-20	silver_seq	AD_5_09_1	AD_5	male	85.0	plasma	AD	33	no_apoe4	no_apoe4
-21	silver_seq	AD_5_10_1	AD_5	male	85.0	plasma	AD	33	no_apoe4	no_apoe4
-22	silver_seq	AD_5_11_1	AD_5	male	85.0	plasma	AD	33	no_apoe4	no_apoe4
-23	silver_seq	AD_5_12_1	AD_5	male	85.0	plasma	AD	33	no_apoe4	no_apoe4
-24	silver_seq	AD_5_13_1	AD_5	male	85.0	plasma	AD	33	no_apoe4	no_apoe4
-25	silver_seq	AD_6_09_1	AD_6	male	88.0	plasma	AD	23	no_apoe4	no_apoe4
-26	silver_seq	AD_6_10_1	AD_6	male	88.0	plasma	AD	23	no_apoe4	no_apoe4
-27	silver_seq	AD_6_11_1	AD_6	male	88.0	plasma	AD	23	no_apoe4	no_apoe4
-28	silver_seq	AD_6_12_1	AD_6	male	88.0	plasma	AD	23	no_apoe4	no_apoe4
-29	silver_seq	AD_6_13_1	AD_6	male	88.0	plasma	AD	23	no_apoe4	no_apoe4
-30	silver_seq	AD_7_06_1	AD_7	male	88.0	plasma	AD	33	no_apoe4	no_apoe4
-31	silver_seq	AD_7_08_1	AD_7	male	88.0	plasma	AD	33	no_apoe4	no_apoe4
-32	silver_seq	AD_7_09_1	AD_7	male	88.0	plasma	AD	33	no_apoe4	no_apoe4
-33	silver_seq	AD_7_11_1	AD_7	male	88.0	plasma	AD	33	no_apoe4	no_apoe4
-34	silver_seq	AD_7_12_1	AD_7	male	88.0	plasma	AD	33	no_apoe4	no_apoe4
-35	silver_seq	AD_8_03_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-36	silver_seq	AD_8_05_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-37	silver_seq	AD_8_07_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-38	silver_seq	AD_8_09_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-39	silver_seq	AD_8_11_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-40	silver_seq	AD_8_12_1	AD_8	female	87.0	plasma	AD	34	apoe4	apoe4
-41	silver_seq	AD_9_04_1	AD_9	female	82.0	plasma	AD	44	apoe4	apoe44
-42	silver_seq	AD_9_06_1	AD_9	female	82.0	plasma	AD	44	apoe4	apoe44
-43	silver_seq	AD_9_09_1	AD_9	female	82.0	plasma	AD	44	apoe4	apoe44
-44	silver_seq	AD_10_04_1	AD_10	male	90.0	plasma	AD	44	apoe4	apoe44
-45	silver_seq	AD_10_06_1	AD_10	male	90.0	plasma	AD	44	apoe4	apoe44
-46	silver_seq	AD_10_09_1	AD_10	male	90.0	plasma	AD	44	apoe4	apoe44
-47	silver_seq	AD_10_10_1	AD_10	male	90.0	plasma	AD	44	apoe4	apoe44
-48	silver_seq	AD_11_02_1	AD_11	male	81.0	plasma	AD	44	apoe4	apoe44
-49	silver_seq	AD_11_03_1	AD_11	male	81.0	plasma	AD	44	apoe4	apoe44
-50	silver_seq	AD_11_04_1	AD_11	male	81.0	plasma	AD	44	apoe4	apoe44
-51	silver_seq	AD_11_08_1	AD_11	male	81.0	plasma	AD	44	apoe4	apoe44
-52	silver_seq	AD_11_10_1	AD_11	male	81.0	plasma	AD	44	apoe4	apoe44
-53	silver_seq	AD_12_02_1	AD_12	male	71.0	plasma	AD	33	no_apoe4	no_apoe4
-54	silver_seq	AD_12_03_1	AD_12	male	71.0	plasma	AD	33	no_apoe4	no_apoe4
-55	silver_seq	AD_12_05_1	AD_12	male	71.0	plasma	AD	33	no_apoe4	no_apoe4
-56	silver_seq	AD_12_07_1	AD_12	male	71.0	plasma	AD	33	no_apoe4	no_apoe4
-57	silver_seq	AD_13_00_1	AD_13	female	83.0	plasma	AD	44	apoe4	apoe44
-58	silver_seq	AD_13_03_1	AD_13	female	83.0	plasma	AD	44	apoe4	apoe44
-59	silver_seq	AD_13_04_1	AD_13	female	83.0	plasma	AD	44	apoe4	apoe44
-60	silver_seq	AD_13_06_1	AD_13	female	83.0	plasma	AD	44	apoe4	apoe44
-61	silver_seq	AD_14_00_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-62	silver_seq	AD_14_01_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-63	silver_seq	AD_14_03_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-64	silver_seq	AD_14_05_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-65	silver_seq	AD_14_07_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-66	silver_seq	AD_14_10_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-67	silver_seq	AD_14_13_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-68	silver_seq	AD_14_14_1	AD_14	female	87.0	plasma	AD	33	no_apoe4	no_apoe4
-69	silver_seq	AD_15_00_1	AD_15	male	77.0	plasma	AD	44	apoe4	apoe44
-70	silver_seq	AD_15_01_1	AD_15	male	77.0	plasma	AD	44	apoe4	apoe44
-71	silver_seq	AD_15_03_1	AD_15	male	77.0	plasma	AD	44	apoe4	apoe44
-72	silver_seq	AD_15_04_1	AD_15	male	77.0	plasma	AD	44	apoe4	apoe44
-73	silver_seq	AD_15_06_1	AD_15	male	77.0	plasma	AD	44	apoe4	apoe44
-74	silver_seq	N_1_01_1	N_1	male	86.0	plasma	control	34	apoe4	apoe4
-75	silver_seq	N_1_05_1	N_1	male	86.0	plasma	control	34	apoe4	apoe4
-76	silver_seq	N_1_07_1	N_1	male	86.0	plasma	control	34	apoe4	apoe4
-77	silver_seq	N_1_08_1	N_1	male	86.0	plasma	control	34	apoe4	apoe4
-78	silver_seq	N_1_09_1	N_1	male	86.0	plasma	control	34	apoe4	apoe4
-79	silver_seq	N_2_00_1	N_2	female	93.0	plasma	control	33	no_apoe4	no_apoe4
-80	silver_seq	N_2_01_1	N_2	female	93.0	plasma	control	33	no_apoe4	no_apoe4
-81	silver_seq	N_2_03_1	N_2	female	93.0	plasma	control	33	no_apoe4	no_apoe4
-82	silver_seq	N_2_06_1	N_2	female	93.0	plasma	control	33	no_apoe4	no_apoe4
-83	silver_seq	N_2_08_1	N_2	female	93.0	plasma	control	33	no_apoe4	no_apoe4
-84	silver_seq	N_3_01_1	N_3	male	86.0	plasma	control	23	no_apoe4	no_apoe4
-85	silver_seq	N_3_03_1	N_3	male	86.0	plasma	control	23	no_apoe4	no_apoe4
-86	silver_seq	N_3_04_1	N_3	male	86.0	plasma	control	23	no_apoe4	no_apoe4
-87	silver_seq	N_3_06_1	N_3	male	86.0	plasma	control	23	no_apoe4	no_apoe4
-88	silver_seq	N_4_01_1	N_4	male	83.0	plasma	control	33	no_apoe4	no_apoe4
-89	silver_seq	N_4_02_1	N_4	male	83.0	plasma	control	33	no_apoe4	no_apoe4
-90	silver_seq	N_4_04_1	N_4	male	83.0	plasma	control	33	no_apoe4	no_apoe4
-91	silver_seq	N_4_06_1	N_4	male	83.0	plasma	control	33	no_apoe4	no_apoe4
-92	silver_seq	N_4_08_1	N_4	male	83.0	plasma	control	33	no_apoe4	no_apoe4
-93	silver_seq	N_5_03_1	N_5	male	89.0	plasma	control	33	no_apoe4	no_apoe4
-94	silver_seq	N_5_04_1	N_5	male	89.0	plasma	control	33	no_apoe4	no_apoe4
-95	silver_seq	N_5_06_1	N_5	male	89.0	plasma	control	33	no_apoe4	no_apoe4
-96	silver_seq	N_5_08_1	N_5	male	89.0	plasma	control	33	no_apoe4	no_apoe4
-97	silver_seq	N_5_10_1	N_5	male	89.0	plasma	control	33	no_apoe4	no_apoe4
-98	silver_seq	N_6_01_1	N_6	female	96.0	plasma	control	33	no_apoe4	no_apoe4
-99	silver_seq	N_6_02_1	N_6	female	96.0	plasma	control	33	no_apoe4	no_apoe4
-100	silver_seq	N_6_03_1	N_6	female	96.0	plasma	control	33	no_apoe4	no_apoe4
-101	silver_seq	N_6_06_1	N_6	female	96.0	plasma	control	33	no_apoe4	no_apoe4
-102	silver_seq	N_6_08_1	N_6	female	96.0	plasma	control	33	no_apoe4	no_apoe4
-103	silver_seq	N_7_01_1	N_7	female	83.0	plasma	control	34	apoe4	apoe4
-104	silver_seq	N_7_02_1	N_7	female	83.0	plasma	control	34	apoe4	apoe4
-105	silver_seq	N_7_04_1	N_7	female	83.0	plasma	control	34	apoe4	apoe4
-106	silver_seq	N_7_07_1	N_7	female	83.0	plasma	control	34	apoe4	apoe4
-107	silver_seq	N_8_01_1	N_8	female	73.0	plasma	control	33	no_apoe4	no_apoe4
-108	silver_seq	N_8_05_1	N_8	female	73.0	plasma	control	33	no_apoe4	no_apoe4
-109	silver_seq	N_8_07_1	N_8	female	73.0	plasma	control	33	no_apoe4	no_apoe4
-110	silver_seq	N_9_00_1	N_9	female	94.0	plasma	control	23	no_apoe4	no_apoe4
-111	silver_seq	N_9_03_1	N_9	female	94.0	plasma	control	23	no_apoe4	no_apoe4
-112	silver_seq	N_9_06_1	N_9	female	94.0	plasma	control	23	no_apoe4	no_apoe4
-113	silver_seq	N_9_08_1	N_9	female	94.0	plasma	control	23	no_apoe4	no_apoe4
-114	silver_seq	N_9_12_1	N_9	female	94.0	plasma	control	23	no_apoe4	no_apoe4
-0	toden	SRR10192321	434	female	75.0	plasma	control	33	no_apoe4	no_apoe4
-1	toden	SRR10192320	435	female	74.0	plasma	control	24	apoe4	apoe4
-2	toden	SRR10192319	438	female	73.0	plasma	control	33	no_apoe4	no_apoe4
-3	toden	SRR10192318	447	male	68.0	plasma	control	34	apoe4	apoe4
-4	toden	SRR10192317	447	male	68.0	plasma	control	34	apoe4	apoe4
-5	toden	SRR10192316	451	female	79.0	plasma	control	34	apoe4	apoe4
-6	toden	SRR10192315	454	male	71.0	plasma	control	33	no_apoe4	no_apoe4
-7	toden	SRR10192314	456	female	80.0	plasma	control	24	apoe4	apoe4
-8	toden	SRR10192313	457	female	68.0	plasma	control	24	apoe4	apoe4
-9	toden	SRR10192311	459	male	70.0	plasma	control	33	no_apoe4	no_apoe4
-10	toden	SRR10192310	460	female	76.0	plasma	control	33	no_apoe4	no_apoe4
-11	toden	SRR10192309	462	female	74.0	plasma	control	33	no_apoe4	no_apoe4
-12	toden	SRR10192307	464	male	73.0	plasma	control	23	no_apoe4	no_apoe4
-13	toden	SRR10192308	464	male	73.0	plasma	control	23	no_apoe4	no_apoe4
-14	toden	SRR10192306	465	female	77.0	plasma	control	33	no_apoe4	no_apoe4
-15	toden	SRR10192305	465	female	77.0	plasma	control	33	no_apoe4	no_apoe4
-16	toden	SRR10192303	466	male	65.0	plasma	control	33	no_apoe4	no_apoe4
-17	toden	SRR10192304	466	male	65.0	plasma	control	33	no_apoe4	no_apoe4
-18	toden	SRR10192302	468	female	73.0	plasma	control	33	no_apoe4	no_apoe4
-19	toden	SRR10192300	469	male	67.0	plasma	control	34	apoe4	apoe4
-20	toden	SRR10192299	470	female	67.0	plasma	control	34	apoe4	apoe4
-21	toden	SRR10192298	472	female	66.0	plasma	control	33	no_apoe4	no_apoe4
-22	toden	SRR10192297	473	male	80.0	plasma	control	33	no_apoe4	no_apoe4
-23	toden	SRR10192296	474	male	74.0	plasma	control	33	no_apoe4	no_apoe4
-24	toden	SRR10192295	475	female	66.0	plasma	control	24	apoe4	apoe4
-25	toden	SRR10192294	476	male	65.0	plasma	control	23	no_apoe4	no_apoe4
-26	toden	SRR10192293	476	male	65.0	plasma	control	23	no_apoe4	no_apoe4
-27	toden	SRR10192292	478	female	75.0	plasma	control	34	apoe4	apoe4
-28	toden	SRR10192289	479	male	72.0	plasma	control	23	no_apoe4	no_apoe4
-29	toden	SRR10192291	479	male	72.0	plasma	control	23	no_apoe4	no_apoe4
-30	toden	SRR10192288	480	female	83.0	plasma	control	33	no_apoe4	no_apoe4
-31	toden	SRR10192287	481	male	70.0	plasma	control	23	no_apoe4	no_apoe4
-32	toden	SRR10192286	481	male	70.0	plasma	control	23	no_apoe4	no_apoe4
-33	toden	SRR10192285	482	male	75.0	plasma	control	34	apoe4	apoe4
-34	toden	SRR10192284	483	male	73.0	plasma	control	33	no_apoe4	no_apoe4
-35	toden	SRR10192283	484	female	73.0	plasma	control	34	apoe4	apoe4
-36	toden	SRR10192282	485	female	70.0	plasma	control	33	no_apoe4	no_apoe4
-37	toden	SRR10192281	486	female	75.0	plasma	control	34	apoe4	apoe4
-38	toden	SRR10192280	487	female	69.0	plasma	control	34	apoe4	apoe4
-39	toden	SRR10192278	488	male	69.0	plasma	control	44	apoe4	apoe44
-40	toden	SRR10192277	489	female	67.0	plasma	control	33	no_apoe4	no_apoe4
-41	toden	SRR10192276	490	male	74.0	plasma	control	34	apoe4	apoe4
-42	toden	SRR10192275	490	male	74.0	plasma	control	34	apoe4	apoe4
-43	toden	SRR10192274	491	female	76.0	plasma	control	33	no_apoe4	no_apoe4
-44	toden	SRR10192273	492	female	72.0	plasma	control	34	apoe4	apoe4
-45	toden	SRR10192272	492	female	72.0	plasma	control	34	apoe4	apoe4
-46	toden	SRR10192270	493	female	73.0	plasma	control	34	apoe4	apoe4
-47	toden	SRR10192271	493	female	73.0	plasma	control	34	apoe4	apoe4
-48	toden	SRR10192269	501	male	72.0	plasma	control	33	no_apoe4	no_apoe4
-49	toden	SRR10192267	558	female	94.0	plasma	AD	33	no_apoe4	no_apoe4
-50	toden	SRR10192266	558	female	94.0	plasma	AD	33	no_apoe4	no_apoe4
-51	toden	SRR10192265	629	male	69.0	plasma	AD	33	no_apoe4	no_apoe4
-52	toden	SRR10192264	629	male	69.0	plasma	AD	33	no_apoe4	no_apoe4
-53	toden	SRR10192263	631	male	60.0	plasma	AD	33	no_apoe4	no_apoe4
-54	toden	SRR10192262	631	male	60.0	plasma	AD	33	no_apoe4	no_apoe4
-55	toden	SRR10192261	632	female	84.0	plasma	AD	23	no_apoe4	no_apoe4
-56	toden	SRR10192260	632	female	84.0	plasma	AD	23	no_apoe4	no_apoe4
-57	toden	SRR10192259	633	female	82.0	plasma	AD	34	apoe4	apoe4
-58	toden	SRR10192258	633	female	82.0	plasma	AD	34	apoe4	apoe4
-59	toden	SRR10192255	636	female	82.0	plasma	AD			
-60	toden	SRR10192256	636	female	82.0	plasma	AD			
-61	toden	SRR10192254	634	female	71.0	plasma	AD	44	apoe4	apoe44
-62	toden	SRR10192253	634	female	71.0	plasma	AD	44	apoe4	apoe44
-63	toden	SRR10192251	637	female	79.0	plasma	AD			
-64	toden	SRR10192252	637	female	79.0	plasma	AD			
-65	toden	SRR10192249	646	male	54.0	plasma	AD			
-66	toden	SRR10192250	646	male	54.0	plasma	AD			
-67	toden	SRR10192247	647	female	71.0	plasma	AD			
-68	toden	SRR10192248	647	female	71.0	plasma	AD			
-69	toden	SRR10192244	648	male	88.0	plasma	AD			
-70	toden	SRR10192245	648	male	88.0	plasma	AD			
-71	toden	SRR10192243	649	female	88.0	plasma	AD			
-72	toden	SRR10192242	649	female	88.0	plasma	AD			
-73	toden	SRR10192240	650	female	62.0	plasma	AD			
-74	toden	SRR10192241	650	female	62.0	plasma	AD			
-75	toden	SRR10192239	651	male	60.0	plasma	AD			
-76	toden	SRR10192238	651	male	60.0	plasma	AD			
-77	toden	SRR10192236	652	male	74.0	plasma	AD			
-78	toden	SRR10192237	652	male	74.0	plasma	AD			
-79	toden	SRR10192234	653	female	88.0	plasma	AD			
-80	toden	SRR10192233	653	female	88.0	plasma	AD			
-81	toden	SRR10192232	654	female	60.0	plasma	AD			
-82	toden	SRR10192231	654	female	60.0	plasma	AD			
-83	toden	SRR10192229	655	female	72.0	plasma	AD			
-84	toden	SRR10192230	655	female	72.0	plasma	AD			
-85	toden	SRR10192227	656	female	80.0	plasma	AD			
-86	toden	SRR10192228	656	female	80.0	plasma	AD			
-87	toden	SRR10192225	657	male	86.0	plasma	AD			
-88	toden	SRR10192226	657	male	86.0	plasma	AD			
-89	toden	SRR10192222	658	female	71.0	plasma	AD			
-90	toden	SRR10192221	659	female	60.0	plasma	AD			
-91	toden	SRR10192220	660	male	68.0	plasma	AD			
-92	toden	SRR10192218	662	female	75.0	plasma	AD			
-93	toden	SRR10192219	662	female	75.0	plasma	AD			
-94	toden	SRR10192217	664	male	73.0	plasma	AD			
-95	toden	SRR10192216	665	female	70.0	plasma	AD			
-96	toden	SRR10192215	666	male	76.0	plasma	AD			
-97	toden	SRR10192214	667	male	67.0	plasma	AD			
-98	toden	SRR10192213	668	female	64.0	plasma	AD			
-99	toden	SRR10192211	669	female	72.0	plasma	AD			
-100	toden	SRR10192210	670	male	81.0	plasma	AD			
-101	toden	SRR10192209	671	male	83.0	plasma	AD			
-102	toden	SRR10192208	673	male	74.0	plasma	AD			
-103	toden	SRR10192207	674	male	74.0	plasma	AD			
-104	toden	SRR10192206	675	male	71.0	plasma	AD			
-105	toden	SRR10192205	682	female	73.0	plasma	AD			
-106	toden	SRR10192204	683	female	83.0	plasma	AD			
-107	toden	SRR10192203	684	male	77.0	plasma	AD			
-108	toden	SRR10192202	685	female	69.0	plasma	AD			
-109	toden	SRR10192199	686	female	76.0	plasma	AD			
-110	toden	SRR10192200	686	female	76.0	plasma	AD			
-111	toden	SRR10192198	687	female	93.0	plasma	AD	33	no_apoe4	no_apoe4
-112	toden	SRR10192197	688	female	0.0	plasma	AD			
-113	toden	SRR10192196	689	female	82.0	plasma	AD			
-114	toden	SRR10192195	690	male	71.0	plasma	AD	34	apoe4	apoe4
-115	toden	SRR10192194	691	male	83.0	plasma	AD	34	apoe4	apoe4
-116	toden	SRR10192193	692	female	67.0	plasma	AD	44	apoe4	apoe44
-117	toden	SRR10192192	693	female	69.0	plasma	AD	33	no_apoe4	no_apoe4
-118	toden	SRR10192189	694	male	69.0	plasma	AD	34	apoe4	apoe4
-119	toden	SRR10192191	694	male	69.0	plasma	AD	34	apoe4	apoe4
-120	toden	SRR10192188	695	female	86.0	plasma	AD			
-121	toden	SRR10192187	696	male	66.0	plasma	AD			
-122	toden	SRR10192186	697	female	72.0	plasma	AD	44	apoe4	apoe44
-123	toden	SRR10192185	699	male	76.0	plasma	AD	33	no_apoe4	no_apoe4
-124	toden	SRR10192184	700	male	78.0	plasma	AD	34	apoe4	apoe4
-125	toden	SRR10192183	701	male	83.0	plasma	AD	33	no_apoe4	no_apoe4
-126	toden	SRR10192182	702	female	87.0	plasma	AD	23	no_apoe4	no_apoe4
-127	toden	SRR10192181	703	female	72.0	plasma	AD	44	apoe4	apoe44
-128	toden	SRR10192180	705	male	81.0	plasma	AD	34	apoe4	apoe4
-129	toden	SRR10192178	710	male	67.0	plasma	AD	34	apoe4	apoe4
-130	toden	SRR10192177	711	male	70.0	plasma	AD			
-131	toden	SRR10192176	712	male	92.0	plasma	AD	33	no_apoe4	no_apoe4
-132	toden	SRR10192175	712	male	92.0	plasma	AD	33	no_apoe4	no_apoe4
-133	toden	SRR10192174	713	female	90.0	plasma	AD	34	apoe4	apoe4
-134	toden	SRR10192172	776	female	80.0	plasma	control	34	apoe4	apoe4
-135	toden	SRR10192173	776	female	80.0	plasma	control	34	apoe4	apoe4
-136	toden	SRR10192170	778	female	84.0	plasma	control	34	apoe4	apoe4
-137	toden	SRR10192171	778	female	84.0	plasma	control	34	apoe4	apoe4
-138	toden	SRR10192167	779	female	95.0	plasma	control	33	no_apoe4	no_apoe4
-139	toden	SRR10192169	779	female	95.0	plasma	control	33	no_apoe4	no_apoe4
-140	toden	SRR10192166	780	female	83.0	plasma	control	33	no_apoe4	no_apoe4
-141	toden	SRR10192165	781	male	83.0	plasma	control	23	no_apoe4	no_apoe4
-142	toden	SRR10192338	781	male	83.0	plasma	control	23	no_apoe4	no_apoe4
-143	toden	SRR10192501	782	female	83.0	plasma	control	34	apoe4	apoe4
-144	toden	SRR10192502	782	female	83.0	plasma	control	34	apoe4	apoe4
-145	toden	SRR10192499	784	female	80.0	plasma	control	33	no_apoe4	no_apoe4
-146	toden	SRR10192500	784	female	80.0	plasma	control	33	no_apoe4	no_apoe4
-147	toden	SRR10192497	790	male	80.0	plasma	control	34	apoe4	apoe4
-148	toden	SRR10192498	790	male	80.0	plasma	control	34	apoe4	apoe4
-149	toden	SRR10192494	773	female	82.0	plasma	control	23	no_apoe4	no_apoe4
-150	toden	SRR10192495	773	female	82.0	plasma	control	23	no_apoe4	no_apoe4
-151	toden	SRR10192493	753	female	75.0	plasma	control	34	apoe4	apoe4
-152	toden	SRR10192491	774	female	83.0	plasma	control	33	no_apoe4	no_apoe4
-153	toden	SRR10192492	774	female	83.0	plasma	control	33	no_apoe4	no_apoe4
-154	toden	SRR10192489	772	female	93.0	plasma	control	34	apoe4	apoe4
-155	toden	SRR10192490	772	female	93.0	plasma	control	34	apoe4	apoe4
-156	toden	SRR10192488	769	male	96.0	plasma	control	33	no_apoe4	no_apoe4
-157	toden	SRR10192487	758	male	89.0	plasma	control			
-158	toden	SRR10192484	756	male	77.0	plasma	control	33	no_apoe4	no_apoe4
-159	toden	SRR10192486	756	male	77.0	plasma	control	33	no_apoe4	no_apoe4
-160	toden	SRR10192482	755	male	90.0	plasma	control	33	no_apoe4	no_apoe4
-161	toden	SRR10192483	755	male	90.0	plasma	control	33	no_apoe4	no_apoe4
-162	toden	SRR10192480	757	female	84.0	plasma	control	33	no_apoe4	no_apoe4
-163	toden	SRR10192481	757	female	84.0	plasma	control	33	no_apoe4	no_apoe4
-164	toden	SRR10192478	771	female	87.0	plasma	control	33	no_apoe4	no_apoe4
-165	toden	SRR10192479	771	female	87.0	plasma	control	33	no_apoe4	no_apoe4
-166	toden	SRR10192476	770	male	89.0	plasma	control	34	apoe4	apoe4
-167	toden	SRR10192477	770	male	89.0	plasma	control	34	apoe4	apoe4
-168	toden	SRR10192473	768	male	81.0	plasma	control	33	no_apoe4	no_apoe4
-169	toden	SRR10192475	768	male	81.0	plasma	control	33	no_apoe4	no_apoe4
-170	toden	SRR10192472	612	male	82.0	plasma	AD	33	no_apoe4	no_apoe4
-171	toden	SRR10192471	573	female	96.0	plasma	AD	33	no_apoe4	no_apoe4
-172	toden	SRR10192470	572	female	84.0	plasma	AD	34	apoe4	apoe4
-173	toden	SRR10192469	622	female	71.0	plasma	AD			
-174	toden	SRR10192467	751	female	89.0	plasma	control	33	no_apoe4	no_apoe4
-175	toden	SRR10192468	751	female	89.0	plasma	control	33	no_apoe4	no_apoe4
-176	toden	SRR10192466	754	female	68.0	plasma	control	34	apoe4	apoe4
-177	toden	SRR10192464	752	male	82.0	plasma	control	33	no_apoe4	no_apoe4
-178	toden	SRR10192465	752	male	82.0	plasma	control	33	no_apoe4	no_apoe4
-179	toden	SRR10192462	580	female	88.0	plasma	AD	33	no_apoe4	no_apoe4
-180	toden	SRR10192460	1004	male	80.0	plasma	control			
-181	toden	SRR10192461	1004	male	80.0	plasma	control			
-182	toden	SRR10192458	1005	female	79.0	plasma	control			
-183	toden	SRR10192459	1005	female	79.0	plasma	control			
-184	toden	SRR10192456	1007	female	77.0	plasma	control			
-185	toden	SRR10192457	1007	female	77.0	plasma	control			
-186	toden	SRR10192454	1009	male	81.0	plasma	control			
-187	toden	SRR10192455	1009	male	81.0	plasma	control			
-188	toden	SRR10192450	1010	female	85.0	plasma	control			
-189	toden	SRR10192453	1010	female	85.0	plasma	control			
-190	toden	SRR10192449	1011	male	82.0	plasma	control			
-191	toden	SRR10192448	1011	male	82.0	plasma	control			
-192	toden	SRR10192446	1012	male	90.0	plasma	control			
-193	toden	SRR10192447	1012	male	90.0	plasma	control			
-194	toden	SRR10192445	1013	female	83.0	plasma	control			
-195	toden	SRR10192444	1013	female	83.0	plasma	control			
-196	toden	SRR10192442	1014	female	81.0	plasma	control			
-197	toden	SRR10192443	1014	female	81.0	plasma	control			
-198	toden	SRR10192439	1015	male	79.0	plasma	control			
-199	toden	SRR10192441	1015	male	79.0	plasma	control			
-200	toden	SRR10192438	1016	male	79.0	plasma	control			
-201	toden	SRR10192437	1017	female	79.0	plasma	control			
-202	toden	SRR10192436	1018	male	79.0	plasma	control			
-203	toden	SRR10192435	1018	male	79.0	plasma	control			
-204	toden	SRR10192434	1020	female	78.0	plasma	control			
-205	toden	SRR10192432	1021	female	82.0	plasma	control			
-206	toden	SRR10192433	1021	female	82.0	plasma	control			
-207	toden	SRR10192430	1024	female	84.0	plasma	control			
-208	toden	SRR10192431	1024	female	84.0	plasma	control			
-209	toden	SRR10192428	1025	male	77.0	plasma	control			
-210	toden	SRR10192427	1026	female	77.0	plasma	control			
-211	toden	SRR10192426	1028	male	83.0	plasma	control			
-212	toden	SRR10192425	1028	male	83.0	plasma	control			
-213	toden	SRR10192423	1029	female	79.0	plasma	control			
-214	toden	SRR10192424	1029	female	79.0	plasma	control			
-215	toden	SRR10192421	1032	male	85.0	plasma	control			
-216	toden	SRR10192422	1032	male	85.0	plasma	control			
-217	toden	SRR10192420	1033	male	77.0	plasma	control			
-218	toden	SRR10192417	1034	female	77.0	plasma	control			
-219	toden	SRR10192419	1034	female	77.0	plasma	control			
-220	toden	SRR10192415	1036	male	79.0	plasma	control			
-221	toden	SRR10192414	1036	male	79.0	plasma	control			
-222	toden	SRR10192413	1030	female	77.0	plasma	control			
-223	toden	SRR10192412	1030	female	77.0	plasma	control			
-224	toden	SRR10192336	1537	female	70.0	plasma	AD			
-225	toden	SRR10192335	1528	female	65.0	plasma	AD			
-226	toden	SRR10192452	1565	female	58.0	plasma	AD			
-227	toden	SRR10192224	1565	female	58.0	plasma	AD			
-228	toden	SRR10192392	1546	female	74.0	plasma	AD			
-229	toden	SRR10192403	1546	female	74.0	plasma	AD			
-230	toden	SRR10192370	1538	female	63.0	plasma	AD			
-231	toden	SRR10192381	1538	female	63.0	plasma	AD			
-232	toden	SRR10192348	1554	female	65.0	plasma	AD			
-233	toden	SRR10192359	1554	female	65.0	plasma	AD			
-234	toden	SRR10192323	1519	male	67.0	plasma	AD			
-235	toden	SRR10192334	1519	male	67.0	plasma	AD			
-236	toden	SRR10192301	1518	male	73.0	plasma	AD			
-237	toden	SRR10192312	1518	male	73.0	plasma	AD			
-238	toden	SRR10192279	1529	male	82.0	plasma	AD			
-239	toden	SRR10192290	1529	male	82.0	plasma	AD			
-240	toden	SRR10192257	1509	female	62.0	plasma	AD			
-241	toden	SRR10192268	1509	female	62.0	plasma	AD			
-242	toden	SRR10192246	1566	female	67.0	plasma	AD			
-243	toden	SRR10192235	1566	female	67.0	plasma	AD			
-244	toden	SRR10192212	1547	female	79.0	plasma	AD			
-245	toden	SRR10192223	1547	female	79.0	plasma	AD			
-246	toden	SRR10192190	1555	female	80.0	plasma	AD			
-247	toden	SRR10192201	1555	female	80.0	plasma	AD			
-248	toden	SRR10192168	1530	female	77.0	plasma	AD			
-249	toden	SRR10192179	1530	female	77.0	plasma	AD			
-250	toden	SRR10192485	1510	female	82.0	plasma	AD			
-251	toden	SRR10192496	1510	female	82.0	plasma	AD			
-252	toden	SRR10192463	1531	female	60.0	plasma	AD			
-253	toden	SRR10192474	1531	female	60.0	plasma	AD			
-254	toden	SRR10192451	1520	male	79.0	plasma	AD			
-255	toden	SRR10192440	1520	male	79.0	plasma	AD			
-256	toden	SRR10192429	1511	male	80.0	plasma	AD			
-257	toden	SRR10192418	1511	male	80.0	plasma	AD			
-258	toden	SRR10192409	1556	female	73.0	plasma	AD			
-259	toden	SRR10192408	1556	female	73.0	plasma	AD			
-260	toden	SRR10192407	1548	male	76.0	plasma	AD			
-261	toden	SRR10192406	1521	male	79.0	plasma	AD			
-262	toden	SRR10192405	1512	female	75.0	plasma	AD			
-263	toden	SRR10192404	1522	female	58.0	plasma	AD			
-264	toden	SRR10192402	1558	female	71.0	plasma	AD			
-265	toden	SRR10192401	1523	female	76.0	plasma	AD			
-266	toden	SRR10192400	1532	male	73.0	plasma	AD			
-267	toden	SRR10192399	1539	female	65.0	plasma	AD			
-268	toden	SRR10192398	1549	male	71.0	plasma	AD			
-269	toden	SRR10192397	1540	female	77.0	plasma	AD			
-270	toden	SRR10192396	1541	male	75.0	plasma	AD			
-271	toden	SRR10192395	1533	female	62.0	plasma	AD			
-272	toden	SRR10192394	1524	female	79.0	plasma	AD			
-273	toden	SRR10192393	1567	female	92.0	plasma	AD			
-274	toden	SRR10192391	1542	male	76.0	plasma	AD			
-275	toden	SRR10192390	1534	female	77.0	plasma	AD			
-276	toden	SRR10192389	1525	female	85.0	plasma	AD			
-277	toden	SRR10192388	1568	male	86.0	plasma	AD			
-278	toden	SRR10192387	1513	male	74.0	plasma	AD			
-279	toden	SRR10192386	1543	male	71.0	plasma	AD			
-280	toden	SRR10192385	1514	female	57.0	plasma	AD			
-281	toden	SRR10192384	1550	female	65.0	plasma	AD			
-282	toden	SRR10192383	1551	male	73.0	plasma	AD			
-283	toden	SRR10192382	1552	female	88.0	plasma	AD			
-284	toden	SRR10192380	1515	male	79.0	plasma	AD			
-285	toden	SRR10192379	1544	female	81.0	plasma	AD			
-286	toden	SRR10192378	1545	male	74.0	plasma	AD			
-287	toden	SRR10192377	1516	male	74.0	plasma	AD			
-288	toden	SRR10192375	1569	male	78.0	plasma	AD			
-289	toden	SRR10192376	1569	male	78.0	plasma	AD			
-290	toden	SRR10192374	1553	female	74.0	plasma	AD			
-291	toden	SRR10192373	1517	male		plasma	AD			
-292	toden	SRR10192372	1526	female	84.0	plasma	AD			
-293	toden	SRR10192371	1527	male	78.0	plasma	AD			
-294	toden	SRR10192369	1559	female	68.0	plasma	AD			
-295	toden	SRR10192368	1559	female	68.0	plasma	AD			
-296	toden	SRR10192367	1535	male	81.0	plasma	AD			
-297	toden	SRR10192365	1560	female	76.0	plasma	AD			
-298	toden	SRR10192366	1560	female	76.0	plasma	AD			
-299	toden	SRR10192364	1561	male	67.0	plasma	AD			
-300	toden	SRR10192363	1562	female	82.0	plasma	AD			
-301	toden	SRR10192362	1570	female	92.0	plasma	AD			
-302	toden	SRR10192361	1536	female	67.0	plasma	AD			
-303	toden	SRR10192360	1563	female	88.0	plasma	AD			
-304	toden	SRR10192357	2630	female	101.0	plasma	control			
-305	toden	SRR10192356	2631	male	66.0	plasma	control			
-306	toden	SRR10192355	2632	female	66.0	plasma	control			
-307	toden	SRR10192354	2633	female	65.0	plasma	control			
-308	toden	SRR10192353	2634	female	77.0	plasma	control			
-309	toden	SRR10192352	2635	female	66.0	plasma	control			
-310	toden	SRR10192350	2636	male	67.0	plasma	control			
-311	toden	SRR10192351	2636	male	67.0	plasma	control			
-312	toden	SRR10192349	2637	male	68.0	plasma	control			
-313	toden	SRR10192347	2638	male	67.0	plasma	control			
-314	toden	SRR10192346	2638	male	67.0	plasma	control			
-315	toden	SRR10192345	2639	female	72.0	plasma	control			
-316	toden	SRR10192343	2640	male	80.0	plasma	control			
-317	toden	SRR10192344	2640	male	80.0	plasma	control			
-318	toden	SRR10192342	2641	female	65.0	plasma	control			
-319	toden	SRR10192341	2642	male	66.0	plasma	control			
-320	toden	SRR10192340	2643	female	68.0	plasma	control			
-321	toden	SRR10192339	2646	male	86.0	plasma	control			
-322	toden	SRR10192337	2647	female	71.0	plasma	control			
-323	toden	SRR10192333	2649	male	81.0	plasma	control			
-324	toden	SRR10192332	2651	female	65.0	plasma	control			
-325	toden	SRR10192331	2652	female	75.0	plasma	control			
-326	toden	SRR10192330	2653	female	88.0	plasma	control			
-327	toden	SRR10192329	2655	male	66.0	plasma	control			
-328	toden	SRR10192328	2656	female	82.0	plasma	control			
-329	toden	SRR10192327	2657	female	87.0	plasma	control			
-330	toden	SRR10192326	2658	male	86.0	plasma	control			
-331	toden	SRR10192325	2659	female	65.0	plasma	control			
-332	toden	SRR10192324	2660	male	66.0	plasma	control			
-333	toden	SRR10192322	2662	male	65.0	plasma	control			
+	study	sample_id	subject_id	group	type	sex	age	apoe	apoe_carrier	apoe_dose
+0	burgos_dbgap	01_16_CSF	01_16	AD	CSF	male	87.0	34	apoe4	apoe4
+1	burgos_dbgap	01_16_SER	01_16	AD	serum	male	87.0	34	apoe4	apoe4
+2	burgos_dbgap	01_18_CSF	01_18	AD	CSF	male	86.0	33	no_apoe4	no_apoe4
+3	burgos_dbgap	01_18_SER	01_18	AD	serum	male	86.0	33	no_apoe4	no_apoe4
+4	burgos_dbgap	01_37_CSF	01_37	control	CSF	female	88.0	34	apoe4	apoe4
+5	burgos_dbgap	01_37_SER	01_37	control	serum	female	88.0	34	apoe4	apoe4
+6	burgos_dbgap	01_44_CSF	01_44	control	CSF	female	78.0	33	no_apoe4	no_apoe4
+7	burgos_dbgap	01_44_SER	01_44	control	serum	female	78.0	33	no_apoe4	no_apoe4
+8	burgos_dbgap	01_46_CSF	01_46	control	CSF	female	90.0	33	no_apoe4	no_apoe4
+9	burgos_dbgap	01_46_SER	01_46	control	serum	female	90.0	33	no_apoe4	no_apoe4
+10	burgos_dbgap	01_48_CSF	01_48	AD	CSF	female	97.0	33	no_apoe4	no_apoe4
+11	burgos_dbgap	02_04_CSF	02_04	control	CSF	female	80.0	33	no_apoe4	no_apoe4
+12	burgos_dbgap	02_04_SER	02_04	control	serum	female	80.0	33	no_apoe4	no_apoe4
+13	burgos_dbgap	02_07_CSF	02_07	AD	CSF	male	83.0	34	apoe4	apoe4
+14	burgos_dbgap	02_33_CSF	02_33	control	CSF	male	85.0	33	no_apoe4	no_apoe4
+15	burgos_dbgap	02_33_SER	02_33	control	serum	male	85.0	33	no_apoe4	no_apoe4
+16	burgos_dbgap	02_39_CSF	02_39	AD	CSF	male	75.0	34	apoe4	apoe4
+17	burgos_dbgap	02_39_SER	02_39	AD	serum	male	75.0	34	apoe4	apoe4
+18	burgos_dbgap	03_02_CSF	03_02	AD	CSF	male	76.0	34	apoe4	apoe4
+19	burgos_dbgap	03_02_SER	03_02	AD	serum	male	76.0	34	apoe4	apoe4
+20	burgos_dbgap	03_07_CSF	03_07	AD	CSF	male	67.0	34	apoe4	apoe4
+21	burgos_dbgap	03_07_SER	03_07	AD	serum	male	67.0	34	apoe4	apoe4
+22	burgos_dbgap	03_10_CSF	03_10	control	CSF	male	89.0	34	apoe4	apoe4
+23	burgos_dbgap	03_10_SER	03_10	control	serum	male	89.0	34	apoe4	apoe4
+24	burgos_dbgap	03_12_CSF	03_12	control	CSF	female	88.0	34	apoe4	apoe4
+25	burgos_dbgap	03_12_SER	03_12	control	serum	female	88.0	34	apoe4	apoe4
+26	burgos_dbgap	03_15_CSF	03_15	control	CSF	male	80.0	33	no_apoe4	no_apoe4
+27	burgos_dbgap	03_18_CSF	03_18	AD	CSF	female	77.0	34	apoe4	apoe4
+28	burgos_dbgap	03_18_SER	03_18	AD	serum	female	77.0	34	apoe4	apoe4
+29	burgos_dbgap	03_21_CSF	03_21	AD	CSF	female	84.0	33	no_apoe4	no_apoe4
+30	burgos_dbgap	03_21_SER	03_21	AD	serum	female	84.0	33	no_apoe4	no_apoe4
+31	burgos_dbgap	03_28_CSF	03_28	control	CSF	male	80.0	33	no_apoe4	no_apoe4
+32	burgos_dbgap	03_28_SER	03_28	control	serum	male	80.0	33	no_apoe4	no_apoe4
+33	burgos_dbgap	03_30_CSF	03_30	AD	CSF	female	60.0	34	apoe4	apoe4
+34	burgos_dbgap	03_30_SER	03_30	AD	serum	female	60.0	34	apoe4	apoe4
+35	burgos_dbgap	03_33_CSF	03_33	AD	CSF	female	74.0	24	apoe4	apoe4
+36	burgos_dbgap	03_33_SER	03_33	AD	serum	female	74.0	24	apoe4	apoe4
+37	burgos_dbgap	03_34_CSF	03_34	AD	CSF	female	88.0	34	apoe4	apoe4
+38	burgos_dbgap	03_34_SER	03_34	AD	serum	female	88.0	34	apoe4	apoe4
+39	burgos_dbgap	03_38_CSF	03_38	AD	CSF	female	84.0	34	apoe4	apoe4
+40	burgos_dbgap	03_39_CSF	03_39	control	CSF	male	86.0	33	no_apoe4	no_apoe4
+41	burgos_dbgap	03_39_SER	03_39	control	serum	male	86.0	33	no_apoe4	no_apoe4
+42	burgos_dbgap	03_54_CSF	03_54	AD	CSF	male	76.0	44	apoe4	apoe44
+43	burgos_dbgap	03_54_SER	03_54	AD	serum	male	76.0	44	apoe4	apoe44
+44	burgos_dbgap	03_58_CSF	03_58	control	CSF	female	85.0	34	apoe4	apoe4
+45	burgos_dbgap	03_58_SER	03_58	control	serum	female	85.0	34	apoe4	apoe4
+46	burgos_dbgap	04_05_SER	04_05	control	serum	female	82.0	33	no_apoe4	no_apoe4
+47	burgos_dbgap	04_22_CSF	04_22	AD	CSF	male	80.0	34	apoe4	apoe4
+48	burgos_dbgap	04_22_SER	04_22	AD	serum	male	80.0	34	apoe4	apoe4
+49	burgos_dbgap	04_24_CSF	04_24	AD	CSF	male	78.0	34	apoe4	apoe4
+50	burgos_dbgap	04_30_CSF	04_30	control	CSF	female	78.0	23	no_apoe4	no_apoe4
+51	burgos_dbgap	04_30_SER	04_30	control	serum	female	78.0	23	no_apoe4	no_apoe4
+52	burgos_dbgap	04_31_CSF	04_31	control	CSF	male	82.0	34	apoe4	apoe4
+53	burgos_dbgap	04_31_SER	04_31	control	serum	male	82.0	34	apoe4	apoe4
+54	burgos_dbgap	04_38_CSF	04_38	control	CSF	female	83.0	22	no_apoe4	no_apoe4
+55	burgos_dbgap	04_38_SER	04_38	control	serum	female	83.0	22	no_apoe4	no_apoe4
+56	burgos_dbgap	04_54_CSF	04_54	AD	CSF	male	75.0	33	no_apoe4	no_apoe4
+57	burgos_dbgap	04_54_SER	04_54	AD	serum	male	75.0	33	no_apoe4	no_apoe4
+58	burgos_dbgap	04_62_CSF	04_62	control	CSF	female	86.0	33	no_apoe4	no_apoe4
+59	burgos_dbgap	04_62_SER	04_62	control	serum	female	86.0	33	no_apoe4	no_apoe4
+60	burgos_dbgap	05_10_SER	05_10	control	serum	male	91.0	33	no_apoe4	no_apoe4
+61	burgos_dbgap	05_11_CSF	05_11	AD	CSF	female	86.0	33	no_apoe4	no_apoe4
+62	burgos_dbgap	05_11_SER	05_11	AD	serum	female	86.0	33	no_apoe4	no_apoe4
+63	burgos_dbgap	05_16_CSF	05_16	control	CSF	male	82.0	33	no_apoe4	no_apoe4
+64	burgos_dbgap	05_16_SER	05_16	control	serum	male	82.0	33	no_apoe4	no_apoe4
+65	burgos_dbgap	05_19_CSF	05_19	AD	CSF	female	75.0	33	no_apoe4	no_apoe4
+66	burgos_dbgap	05_19_SER	05_19	AD	serum	female	75.0	33	no_apoe4	no_apoe4
+67	burgos_dbgap	05_20_CSF	05_20	control	CSF	male	75.0	33	no_apoe4	no_apoe4
+68	burgos_dbgap	05_20_SER	05_20	control	serum	male	75.0	33	no_apoe4	no_apoe4
+69	burgos_dbgap	05_21_CSF	05_21	control	CSF	male	91.0	33	no_apoe4	no_apoe4
+70	burgos_dbgap	05_21_SER	05_21	control	serum	male	91.0	33	no_apoe4	no_apoe4
+71	burgos_dbgap	05_39_CSF	05_39	AD	CSF	male	82.0	34	apoe4	apoe4
+72	burgos_dbgap	05_52_CSF	05_52	AD	CSF	female	70.0	33	no_apoe4	no_apoe4
+73	burgos_dbgap	05_52_SER	05_52	AD	serum	female	70.0	33	no_apoe4	no_apoe4
+74	burgos_dbgap	06_05_CSF	06_05	control	CSF	female	88.0	23	no_apoe4	no_apoe4
+75	burgos_dbgap	06_05_SER	06_05	control	serum	female	88.0	23	no_apoe4	no_apoe4
+76	burgos_dbgap	06_08_CSF	06_08	control	CSF	male	84.0	33	no_apoe4	no_apoe4
+77	burgos_dbgap	06_08_SER	06_08	control	serum	male	84.0	33	no_apoe4	no_apoe4
+78	burgos_dbgap	06_12_CSF	06_12	AD	CSF	female	74.0	34	apoe4	apoe4
+79	burgos_dbgap	06_12_SER	06_12	AD	serum	female	74.0	34	apoe4	apoe4
+80	burgos_dbgap	06_15_CSF	06_15	control	CSF	female	87.0	23	no_apoe4	no_apoe4
+81	burgos_dbgap	06_15_SER	06_15	control	serum	female	87.0	23	no_apoe4	no_apoe4
+82	burgos_dbgap	06_19_CSF	06_19	control	CSF	male	84.0	23	no_apoe4	no_apoe4
+83	burgos_dbgap	06_19_SER	06_19	control	serum	male	84.0	23	no_apoe4	no_apoe4
+84	burgos_dbgap	06_21_CSF	06_21	control	CSF	male	73.0	23	no_apoe4	no_apoe4
+85	burgos_dbgap	06_21_SER	06_21	control	serum	male	73.0	23	no_apoe4	no_apoe4
+86	burgos_dbgap	06_27_CSF	06_27	control	CSF	male	78.0	33	no_apoe4	no_apoe4
+87	burgos_dbgap	06_27_SER	06_27	control	serum	male	78.0	33	no_apoe4	no_apoe4
+88	burgos_dbgap	06_32_SER	06_32	control	serum	female	77.0	33	no_apoe4	no_apoe4
+89	burgos_dbgap	06_35_CSF	06_35	control	CSF	male	89.0	33	no_apoe4	no_apoe4
+90	burgos_dbgap	06_35_SER	06_35	control	serum	male	89.0	33	no_apoe4	no_apoe4
+91	burgos_dbgap	06_52_CSF	06_52	AD	CSF	female	78.0	33	no_apoe4	no_apoe4
+92	burgos_dbgap	06_52_SER	06_52	AD	serum	female	78.0	33	no_apoe4	no_apoe4
+93	burgos_dbgap	06_63_CSF	06_63	control	CSF	female	84.0	33	no_apoe4	no_apoe4
+94	burgos_dbgap	06_63_SER	06_63	control	serum	female	84.0	33	no_apoe4	no_apoe4
+95	burgos_dbgap	07_02_CSF	07_02	AD	CSF	female	87.0	33	no_apoe4	no_apoe4
+96	burgos_dbgap	07_02_SER	07_02	AD	serum	female	87.0	33	no_apoe4	no_apoe4
+97	burgos_dbgap	07_08_CSF	07_08	AD	CSF	female	70.0	34	apoe4	apoe4
+98	burgos_dbgap	07_08_SER	07_08	AD	serum	female	70.0	34	apoe4	apoe4
+99	burgos_dbgap	07_10_CSF	07_10	control	CSF	female	90.0	33	no_apoe4	no_apoe4
+100	burgos_dbgap	07_11_CSF	07_11	control	CSF	female	75.0	34	apoe4	apoe4
+101	burgos_dbgap	07_11_SER	07_11	control	serum	female	75.0	34	apoe4	apoe4
+102	burgos_dbgap	07_20_CSF	07_20	AD	CSF	female	57.0	33	no_apoe4	no_apoe4
+103	burgos_dbgap	07_20_SER	07_20	AD	serum	female	57.0	33	no_apoe4	no_apoe4
+104	burgos_dbgap	07_34_CSF	07_34	AD	CSF	female	86.0	33	no_apoe4	no_apoe4
+105	burgos_dbgap	07_34_SER	07_34	AD	serum	female	86.0	33	no_apoe4	no_apoe4
+106	burgos_dbgap	07_42_CSF	07_42	AD	CSF	female	65.0	34	apoe4	apoe4
+107	burgos_dbgap	07_42_SER	07_42	AD	serum	female	65.0	34	apoe4	apoe4
+108	burgos_dbgap	07_54_CSF	07_54	AD	CSF	female	82.0	33	no_apoe4	no_apoe4
+109	burgos_dbgap	07_57_CSF	07_57	AD	CSF	female	91.0		apoe4	apoe44
+110	burgos_dbgap	07_57_SER	07_57	AD	serum	female	91.0		apoe4	apoe44
+111	burgos_dbgap	07_58_CSF	07_58	control	CSF	female	88.0	33	no_apoe4	no_apoe4
+112	burgos_dbgap	07_58_SER	07_58	control	serum	female	88.0	33	no_apoe4	no_apoe4
+113	burgos_dbgap	07_63_CSF	07_63	control	CSF	female	87.0	33	no_apoe4	no_apoe4
+114	burgos_dbgap	07_63_SER	07_63	control	serum	female	87.0	33	no_apoe4	no_apoe4
+115	burgos_dbgap	07_64_CSF	07_64	AD	CSF	female	91.0	23	no_apoe4	no_apoe4
+116	burgos_dbgap	07_64_SER	07_64	AD	serum	female	91.0	23	no_apoe4	no_apoe4
+117	burgos_dbgap	07_73_CSF	07_73	control	CSF	female	76.0	34	apoe4	apoe4
+118	burgos_dbgap	07_73_SER	07_73	control	serum	female	76.0	34	apoe4	apoe4
+119	burgos_dbgap	08_06_CSF	08_06	AD	CSF	male	79.0	34	apoe4	apoe4
+120	burgos_dbgap	08_06_SER	08_06	AD	serum	male	79.0	34	apoe4	apoe4
+121	burgos_dbgap	08_29_CSF	08_29	AD	CSF	male	90.0	33	no_apoe4	no_apoe4
+122	burgos_dbgap	08_29_SER	08_29	AD	serum	male	90.0	33	no_apoe4	no_apoe4
+123	burgos_dbgap	08_35_CSF	08_35	control	CSF	male	87.0	34	apoe4	apoe4
+124	burgos_dbgap	08_35_SER	08_35	control	serum	male	87.0	34	apoe4	apoe4
+125	burgos_dbgap	08_37_CSF	08_37	AD	CSF	male	87.0	23	no_apoe4	no_apoe4
+126	burgos_dbgap	08_37_SER	08_37	AD	serum	male	87.0	23	no_apoe4	no_apoe4
+127	burgos_dbgap	08_40_CSF	08_40	control	CSF	male	76.0	34	apoe4	apoe4
+128	burgos_dbgap	08_40_SER	08_40	control	serum	male	76.0	34	apoe4	apoe4
+129	burgos_dbgap	08_45_CSF	08_45	AD	CSF	male	78.0	34	apoe4	apoe4
+130	burgos_dbgap	08_45_SER	08_45	AD	serum	male	78.0	34	apoe4	apoe4
+131	burgos_dbgap	08_52_CSF	08_52	control	CSF	male	94.0	33	no_apoe4	no_apoe4
+132	burgos_dbgap	08_52_SER	08_52	control	serum	male	94.0	33	no_apoe4	no_apoe4
+133	burgos_dbgap	08_55_CSF	08_55	control	CSF	male	71.0	33	no_apoe4	no_apoe4
+134	burgos_dbgap	08_55_SER	08_55	control	serum	male	71.0	33	no_apoe4	no_apoe4
+135	burgos_dbgap	08_69_CSF	08_69	AD	CSF	female	86.0	34	apoe4	apoe4
+136	burgos_dbgap	08_69_SER	08_69	AD	serum	female	86.0	34	apoe4	apoe4
+137	burgos_dbgap	08_77_CSF	08_77	control	CSF	female	91.0	33	no_apoe4	no_apoe4
+138	burgos_dbgap	08_77_SER	08_77	control	serum	female	91.0	33	no_apoe4	no_apoe4
+139	burgos_dbgap	08_82_SER	08_82	AD	serum	male	86.0	33	no_apoe4	no_apoe4
+140	burgos_dbgap	08_85_CSF	08_85	control	CSF	male	82.0	23	no_apoe4	no_apoe4
+141	burgos_dbgap	08_85_SER	08_85	control	serum	male	82.0	23	no_apoe4	no_apoe4
+142	burgos_dbgap	08_88_CSF	08_88	control	CSF	male	65.0	33	no_apoe4	no_apoe4
+143	burgos_dbgap	08_88_SER	08_88	control	serum	male	65.0	33	no_apoe4	no_apoe4
+144	burgos_dbgap	09_14_CSF	09_14	AD	CSF	female	89.0	33	no_apoe4	no_apoe4
+145	burgos_dbgap	09_14_SER	09_14	AD	serum	female	89.0	33	no_apoe4	no_apoe4
+146	burgos_dbgap	09_20_CSF	09_20	control	CSF	female	99.0	33	no_apoe4	no_apoe4
+147	burgos_dbgap	09_20_SER	09_20	control	serum	female	99.0	33	no_apoe4	no_apoe4
+148	burgos_dbgap	09_31_CSF	09_31	control	CSF	male	92.0	33	no_apoe4	no_apoe4
+149	burgos_dbgap	09_31_SER	09_31	control	serum	male	92.0	33	no_apoe4	no_apoe4
+150	burgos_dbgap	09_35_CSF	09_35	control	CSF	male	38.0	33	no_apoe4	no_apoe4
+151	burgos_dbgap	09_35_SER	09_35	control	serum	male	38.0	33	no_apoe4	no_apoe4
+152	burgos_dbgap	09_39_CSF	09_39	AD	CSF	male	82.0	34	apoe4	apoe4
+153	burgos_dbgap	09_39_SER	09_39	AD	serum	male	82.0	34	apoe4	apoe4
+154	burgos_dbgap	09_42_CSF	09_42	AD	CSF	male	85.0	33	no_apoe4	no_apoe4
+155	burgos_dbgap	09_42_SER	09_42	AD	serum	male	85.0	33	no_apoe4	no_apoe4
+156	burgos_dbgap	09_49_CSF	09_49	control	CSF	male	97.0	33	no_apoe4	no_apoe4
+157	burgos_dbgap	09_50_CSF	09_50	control	CSF	male	53.0	33	no_apoe4	no_apoe4
+158	burgos_dbgap	09_50_SER	09_50	control	serum	male	53.0	33	no_apoe4	no_apoe4
+159	burgos_dbgap	09_57_CSF	09_57	control	CSF	male	80.0	22	no_apoe4	no_apoe4
+160	burgos_dbgap	09_57_SER	09_57	control	serum	male	80.0	22	no_apoe4	no_apoe4
+161	burgos_dbgap	10_13_CSF	10_13	control	CSF	male	85.0		apoe4	apoe44
+162	burgos_dbgap	10_13_SER	10_13	control	serum	male	85.0		apoe4	apoe44
+163	burgos_dbgap	10_16-CSF	10_16	AD	CSF	female	68.0	33	no_apoe4	no_apoe4
+164	burgos_dbgap	10_16_SER	10_16	AD	serum	female	68.0	33	no_apoe4	no_apoe4
+165	burgos_dbgap	10_22_CSF	10_22	control	CSF	female	59.0	33	no_apoe4	no_apoe4
+166	burgos_dbgap	10_22_SER	10_22	control	serum	female	59.0	33	no_apoe4	no_apoe4
+167	burgos_dbgap	10_26_CSF	10_26	control	CSF	female	95.0	33	no_apoe4	no_apoe4
+168	burgos_dbgap	10_26_SER	10_26	control	serum	female	95.0	33	no_apoe4	no_apoe4
+169	burgos_dbgap	10_32_CSF	10_32	control	CSF	female	84.0	34	apoe4	apoe4
+170	burgos_dbgap	10_32_SER	10_32	control	serum	female	84.0	34	apoe4	apoe4
+171	burgos_dbgap	10_36_CSF	10_36	AD	CSF	male	90.0	33	no_apoe4	no_apoe4
+172	burgos_dbgap	10_36_SER	10_36	AD	serum	male	90.0	33	no_apoe4	no_apoe4
+173	burgos_dbgap	10_39_CSF	10_39	control	CSF	male	93.0	33	no_apoe4	no_apoe4
+174	burgos_dbgap	10_39_SER	10_39	control	serum	male	93.0	33	no_apoe4	no_apoe4
+175	burgos_dbgap	95_36_CSF	95_36	control	CSF	female	92.0	33	no_apoe4	no_apoe4
+176	burgos_dbgap	95_36_SER	95_36	control	serum	female	92.0	33	no_apoe4	no_apoe4
+177	burgos_dbgap	95_39_SER	95_39	control	serum	male	68.0	33	no_apoe4	no_apoe4
+178	burgos_dbgap	95_40_CSF	95_40	control	CSF	male	74.0	33	no_apoe4	no_apoe4
+179	burgos_dbgap	95_40_SER	95_40	control	serum	male	74.0	33	no_apoe4	no_apoe4
+180	burgos_dbgap	96_04-SER	96_04	AD	serum	male	89.0	34	apoe4	apoe4
+181	burgos_dbgap	96_09-CSF	96_09	AD	CSF	male	75.0	33	no_apoe4	no_apoe4
+182	burgos_dbgap	96_09-SER	96_09	AD	serum	male	75.0	33	no_apoe4	no_apoe4
+183	burgos_dbgap	96_11_CSF	96_11	AD	CSF	male	83.0	33	no_apoe4	no_apoe4
+184	burgos_dbgap	96_11_SER	96_11	AD	serum	male	83.0	33	no_apoe4	no_apoe4
+185	burgos_dbgap	96_17-CSF	96_17	AD	CSF	female	86.0	34	apoe4	apoe4
+186	burgos_dbgap	96_17_SER	96_17	AD	serum	female	86.0	34	apoe4	apoe4
+187	burgos_dbgap	96_18_CSF	96_18	AD	CSF	female	79.0	44	apoe4	apoe44
+188	burgos_dbgap	96_18_SER	96_18	AD	serum	female	79.0	44	apoe4	apoe44
+189	burgos_dbgap	96_22_SER	96_22	control	serum	male	94.0	33	no_apoe4	no_apoe4
+190	burgos_dbgap	96_29_CSF	96_29	AD	CSF	male	77.0	34	apoe4	apoe4
+191	burgos_dbgap	96_29_SER	96_29	AD	serum	male	77.0	34	apoe4	apoe4
+192	burgos_dbgap	96_30_CSF	96_30	control	CSF	male	90.0	33	no_apoe4	no_apoe4
+193	burgos_dbgap	96_30_SER	96_30	control	serum	male	90.0	33	no_apoe4	no_apoe4
+194	burgos_dbgap	96_31_CSF	96_31	AD	CSF	male	88.0	33	no_apoe4	no_apoe4
+195	burgos_dbgap	96_31_SER	96_31	AD	serum	male	88.0	33	no_apoe4	no_apoe4
+196	burgos_dbgap	96_35_CSF	96_35	control	CSF	male	84.0	23	no_apoe4	no_apoe4
+197	burgos_dbgap	96_35_SER	96_35	control	serum	male	84.0	23	no_apoe4	no_apoe4
+198	burgos_dbgap	96_46_CSF	96_46	AD	CSF	male	87.0	44	apoe4	apoe44
+199	burgos_dbgap	96_46_SER	96_46	AD	serum	male	87.0	44	apoe4	apoe44
+200	burgos_dbgap	97_17_CSF	97_17	control	CSF	male	78.0	33	no_apoe4	no_apoe4
+201	burgos_dbgap	97_17_SER	97_17	control	serum	male	78.0	33	no_apoe4	no_apoe4
+202	burgos_dbgap	97_18_CSF	97_18	AD	CSF	female	93.0	44	apoe4	apoe44
+203	burgos_dbgap	97_18_SER	97_18	AD	serum	female	93.0	44	apoe4	apoe44
+204	burgos_dbgap	97_21_CSF	97_21	AD	CSF	male	81.0	34	apoe4	apoe4
+205	burgos_dbgap	97_21_SER	97_21	AD	serum	male	81.0	34	apoe4	apoe4
+206	burgos_dbgap	97_22_CSF	97_22	AD	CSF	female	81.0	34	apoe4	apoe4
+207	burgos_dbgap	97_22_SER	97_22	AD	serum	female	81.0	34	apoe4	apoe4
+208	burgos_dbgap	97_24_CSF	97_24	AD	CSF	female	85.0	34	apoe4	apoe4
+209	burgos_dbgap	97_24_SER	97_24	AD	serum	female	85.0	34	apoe4	apoe4
+210	burgos_dbgap	97_25_SER	97_25	AD	serum	female	84.0	33	no_apoe4	no_apoe4
+211	burgos_dbgap	97_37_CSF	97_37	control	CSF	male	83.0	34	apoe4	apoe4
+212	burgos_dbgap	97_37_SER	97_37	control	serum	male	83.0	34	apoe4	apoe4
+213	burgos_dbgap	97_39_CSF	97_39	AD	CSF	female	78.0	34	apoe4	apoe4
+214	burgos_dbgap	97_44_CSF	97_44	AD	CSF	male	75.0	34	apoe4	apoe4
+215	burgos_dbgap	97_44_SER	97_44	AD	serum	male	75.0	34	apoe4	apoe4
+216	burgos_dbgap	97_45_CSF	97_45	control	CSF	male	79.0	33	no_apoe4	no_apoe4
+217	burgos_dbgap	97_45_SER	97_45	control	serum	male	79.0	33	no_apoe4	no_apoe4
+218	burgos_dbgap	97_48_CSF	97_48	AD	CSF	female	90.0	34	apoe4	apoe4
+219	burgos_dbgap	97_48_SER	97_48	AD	serum	female	90.0	34	apoe4	apoe4
+220	burgos_dbgap	97_51_CSF	97_51	control	CSF	male	84.0	33	no_apoe4	no_apoe4
+221	burgos_dbgap	97_51_SER	97_51	control	serum	male	84.0	33	no_apoe4	no_apoe4
+222	burgos_dbgap	98_07_CSF	98_07	AD	CSF	male	85.0	33	no_apoe4	no_apoe4
+223	burgos_dbgap	98_07_SER	98_07	AD	serum	male	85.0	33	no_apoe4	no_apoe4
+224	burgos_dbgap	98_10_CSF	98_10	AD	CSF	male	82.0	34	apoe4	apoe4
+225	burgos_dbgap	98_10_SER	98_10	AD	serum	male	82.0	34	apoe4	apoe4
+226	burgos_dbgap	98_18_CSF	98_18	AD	CSF	female	91.0	33	no_apoe4	no_apoe4
+227	burgos_dbgap	98_18_SER	98_18	AD	serum	female	91.0	33	no_apoe4	no_apoe4
+228	burgos_dbgap	98_19_CSF	98_19	control	CSF	female	87.0	33	no_apoe4	no_apoe4
+229	burgos_dbgap	98_19_SER	98_19	control	serum	female	87.0	33	no_apoe4	no_apoe4
+230	burgos_dbgap	98_22_CSF	98_22	control	CSF	male	90.0	33	no_apoe4	no_apoe4
+231	burgos_dbgap	98_22_SER	98_22	control	serum	male	90.0	33	no_apoe4	no_apoe4
+232	burgos_dbgap	98_23_SER	98_23	control	serum	male	68.0	33	no_apoe4	no_apoe4
+233	burgos_dbgap	98_30_CSF	98_30	AD	CSF	female	86.0	34	apoe4	apoe4
+234	burgos_dbgap	98_30_SER	98_30	AD	serum	female	86.0	34	apoe4	apoe4
+235	burgos_dbgap	98_34_CSF	98_34	control	CSF	female	73.0	34	apoe4	apoe4
+236	burgos_dbgap	98_34_SER	98_34	control	serum	female	73.0	34	apoe4	apoe4
+237	burgos_dbgap	98_37_CSF	98_37	control	CSF	male	78.0	34	apoe4	apoe4
+238	burgos_dbgap	98_37_SER	98_37	control	serum	male	78.0	34	apoe4	apoe4
+239	burgos_dbgap	99_02_CSF	99_02	control	CSF	female	70.0	44	apoe4	apoe44
+240	burgos_dbgap	99_02_SER	99_02	control	serum	female	70.0	44	apoe4	apoe44
+241	burgos_dbgap	99_10_CSF	99_10	AD	CSF	female	74.0	34	apoe4	apoe4
+242	burgos_dbgap	99_10_SER	99_10	AD	serum	female	74.0	34	apoe4	apoe4
+243	burgos_dbgap	99_14_CSF	99_14	control	CSF	male	86.0	33	no_apoe4	no_apoe4
+244	burgos_dbgap	99_14_SER	99_14	control	serum	male	86.0	33	no_apoe4	no_apoe4
+245	burgos_dbgap	99_15_CSF	99_15	AD	CSF	male	83.0	44	apoe4	apoe44
+246	burgos_dbgap	99_15_SER	99_15	AD	serum	male	83.0	44	apoe4	apoe44
+247	burgos_dbgap	99_25_CSF	99_25	control	CSF	female	76.0	33	no_apoe4	no_apoe4
+248	burgos_dbgap	99_25_SER	99_25	control	serum	female	76.0	33	no_apoe4	no_apoe4
+249	burgos_dbgap	99_27_CSF	99_27	control	CSF	female	88.0	34	apoe4	apoe4
+250	burgos_dbgap	99_27_SER	99_27	control	serum	female	88.0	34	apoe4	apoe4
+251	burgos_dbgap	99_28_CSF	99_28	AD	CSF	male	80.0	34	apoe4	apoe4
+252	burgos_dbgap	99_28_SER	99_28	AD	serum	male	80.0	34	apoe4	apoe4
+253	burgos_dbgap	99_29_CSF	99_29	control	CSF	male	81.0	23	no_apoe4	no_apoe4
+254	burgos_dbgap	99_43_CSF	99_43	AD	CSF	male	80.0	34	apoe4	apoe4
+255	burgos_dbgap	99_44_CSF	99_44	control	CSF	male	69.0	34	apoe4	apoe4
+256	burgos_dbgap	99_44_SER	99_44	control	serum	male	69.0	34	apoe4	apoe4
+257	burgos_dbgap	99_48_CSF	99_48	AD	CSF	female	85.0	34	apoe4	apoe4
+258	burgos_dbgap	99_48_SER	99_48	AD	serum	female	85.0	34	apoe4	apoe4
+259	burgos_dbgap	99_52_CSF	99_52	AD	CSF	female	89.0	33	no_apoe4	no_apoe4
+260	burgos_dbgap	99_52_SER	99_52	AD	serum	female	89.0	33	no_apoe4	no_apoe4
+261	burgos_dbgap	99_58_CSF	99_58	control	CSF	female	91.0	22	no_apoe4	no_apoe4
+262	burgos_dbgap	99_58_SER	99_58	control	serum	female	91.0	22	no_apoe4	no_apoe4
+263	burgos_dbgap	99_60_CSF	99_60	AD	CSF	male	83.0	34	apoe4	apoe4
+264	burgos_dbgap	99_60_SER	99_60	AD	serum	male	83.0	34	apoe4	apoe4
+265	burgos_dbgap	99_64_CSF	99_64	AD	CSF	female	79.0	34	apoe4	apoe4
+266	burgos_dbgap	99_64_SER	99_64	AD	serum	female	79.0	34	apoe4	apoe4
+0	silver_seq	AD_1_02_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+1	silver_seq	AD_1_04_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+2	silver_seq	AD_1_08_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+3	silver_seq	AD_1_09_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+4	silver_seq	AD_1_11_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+5	silver_seq	AD_1_13_1	AD_1	AD	plasma	female	85.0	34	apoe4	apoe4
+6	silver_seq	AD_2_01_1	AD_2	AD	plasma	female	86.0	33	no_apoe4	no_apoe4
+7	silver_seq	AD_2_02_1	AD_2	AD	plasma	female	86.0	33	no_apoe4	no_apoe4
+8	silver_seq	AD_2_03_1	AD_2	AD	plasma	female	86.0	33	no_apoe4	no_apoe4
+9	silver_seq	AD_2_05_1	AD_2	AD	plasma	female	86.0	33	no_apoe4	no_apoe4
+10	silver_seq	AD_2_07_1	AD_2	AD	plasma	female	86.0	33	no_apoe4	no_apoe4
+11	silver_seq	AD_3_00_1	AD_3	AD	plasma	male	89.0	33	no_apoe4	no_apoe4
+12	silver_seq	AD_3_01_1	AD_3	AD	plasma	male	89.0	33	no_apoe4	no_apoe4
+13	silver_seq	AD_3_03_1	AD_3	AD	plasma	male	89.0	33	no_apoe4	no_apoe4
+14	silver_seq	AD_3_05_1	AD_3	AD	plasma	male	89.0	33	no_apoe4	no_apoe4
+15	silver_seq	AD_3_07_1	AD_3	AD	plasma	male	89.0	33	no_apoe4	no_apoe4
+16	silver_seq	AD_4_10_1	AD_4	AD	plasma	female	82.0	33	no_apoe4	no_apoe4
+17	silver_seq	AD_4_11_1	AD_4	AD	plasma	female	82.0	33	no_apoe4	no_apoe4
+18	silver_seq	AD_4_12_1	AD_4	AD	plasma	female	82.0	33	no_apoe4	no_apoe4
+19	silver_seq	AD_4_13_1	AD_4	AD	plasma	female	82.0	33	no_apoe4	no_apoe4
+20	silver_seq	AD_5_09_1	AD_5	AD	plasma	male	85.0	33	no_apoe4	no_apoe4
+21	silver_seq	AD_5_10_1	AD_5	AD	plasma	male	85.0	33	no_apoe4	no_apoe4
+22	silver_seq	AD_5_11_1	AD_5	AD	plasma	male	85.0	33	no_apoe4	no_apoe4
+23	silver_seq	AD_5_12_1	AD_5	AD	plasma	male	85.0	33	no_apoe4	no_apoe4
+24	silver_seq	AD_5_13_1	AD_5	AD	plasma	male	85.0	33	no_apoe4	no_apoe4
+25	silver_seq	AD_6_09_1	AD_6	AD	plasma	male	88.0	23	no_apoe4	no_apoe4
+26	silver_seq	AD_6_10_1	AD_6	AD	plasma	male	88.0	23	no_apoe4	no_apoe4
+27	silver_seq	AD_6_11_1	AD_6	AD	plasma	male	88.0	23	no_apoe4	no_apoe4
+28	silver_seq	AD_6_12_1	AD_6	AD	plasma	male	88.0	23	no_apoe4	no_apoe4
+29	silver_seq	AD_6_13_1	AD_6	AD	plasma	male	88.0	23	no_apoe4	no_apoe4
+30	silver_seq	AD_7_06_1	AD_7	AD	plasma	male	88.0	33	no_apoe4	no_apoe4
+31	silver_seq	AD_7_08_1	AD_7	AD	plasma	male	88.0	33	no_apoe4	no_apoe4
+32	silver_seq	AD_7_09_1	AD_7	AD	plasma	male	88.0	33	no_apoe4	no_apoe4
+33	silver_seq	AD_7_11_1	AD_7	AD	plasma	male	88.0	33	no_apoe4	no_apoe4
+34	silver_seq	AD_7_12_1	AD_7	AD	plasma	male	88.0	33	no_apoe4	no_apoe4
+35	silver_seq	AD_8_03_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+36	silver_seq	AD_8_05_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+37	silver_seq	AD_8_07_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+38	silver_seq	AD_8_09_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+39	silver_seq	AD_8_11_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+40	silver_seq	AD_8_12_1	AD_8	AD	plasma	female	87.0	34	apoe4	apoe4
+41	silver_seq	AD_9_04_1	AD_9	AD	plasma	female	82.0	44	apoe4	apoe44
+42	silver_seq	AD_9_06_1	AD_9	AD	plasma	female	82.0	44	apoe4	apoe44
+43	silver_seq	AD_9_09_1	AD_9	AD	plasma	female	82.0	44	apoe4	apoe44
+44	silver_seq	AD_10_04_1	AD_10	AD	plasma	male	90.0	44	apoe4	apoe44
+45	silver_seq	AD_10_06_1	AD_10	AD	plasma	male	90.0	44	apoe4	apoe44
+46	silver_seq	AD_10_09_1	AD_10	AD	plasma	male	90.0	44	apoe4	apoe44
+47	silver_seq	AD_10_10_1	AD_10	AD	plasma	male	90.0	44	apoe4	apoe44
+48	silver_seq	AD_11_02_1	AD_11	AD	plasma	male	81.0	44	apoe4	apoe44
+49	silver_seq	AD_11_03_1	AD_11	AD	plasma	male	81.0	44	apoe4	apoe44
+50	silver_seq	AD_11_04_1	AD_11	AD	plasma	male	81.0	44	apoe4	apoe44
+51	silver_seq	AD_11_08_1	AD_11	AD	plasma	male	81.0	44	apoe4	apoe44
+52	silver_seq	AD_11_10_1	AD_11	AD	plasma	male	81.0	44	apoe4	apoe44
+53	silver_seq	AD_12_02_1	AD_12	AD	plasma	male	71.0	33	no_apoe4	no_apoe4
+54	silver_seq	AD_12_03_1	AD_12	AD	plasma	male	71.0	33	no_apoe4	no_apoe4
+55	silver_seq	AD_12_05_1	AD_12	AD	plasma	male	71.0	33	no_apoe4	no_apoe4
+56	silver_seq	AD_12_07_1	AD_12	AD	plasma	male	71.0	33	no_apoe4	no_apoe4
+57	silver_seq	AD_13_00_1	AD_13	AD	plasma	female	83.0	44	apoe4	apoe44
+58	silver_seq	AD_13_03_1	AD_13	AD	plasma	female	83.0	44	apoe4	apoe44
+59	silver_seq	AD_13_04_1	AD_13	AD	plasma	female	83.0	44	apoe4	apoe44
+60	silver_seq	AD_13_06_1	AD_13	AD	plasma	female	83.0	44	apoe4	apoe44
+61	silver_seq	AD_14_00_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+62	silver_seq	AD_14_01_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+63	silver_seq	AD_14_03_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+64	silver_seq	AD_14_05_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+65	silver_seq	AD_14_07_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+66	silver_seq	AD_14_10_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+67	silver_seq	AD_14_13_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+68	silver_seq	AD_14_14_1	AD_14	AD	plasma	female	87.0	33	no_apoe4	no_apoe4
+69	silver_seq	AD_15_00_1	AD_15	AD	plasma	male	77.0	44	apoe4	apoe44
+70	silver_seq	AD_15_01_1	AD_15	AD	plasma	male	77.0	44	apoe4	apoe44
+71	silver_seq	AD_15_03_1	AD_15	AD	plasma	male	77.0	44	apoe4	apoe44
+72	silver_seq	AD_15_04_1	AD_15	AD	plasma	male	77.0	44	apoe4	apoe44
+73	silver_seq	AD_15_06_1	AD_15	AD	plasma	male	77.0	44	apoe4	apoe44
+74	silver_seq	N_1_01_1	N_1	control	plasma	male	86.0	34	apoe4	apoe4
+75	silver_seq	N_1_05_1	N_1	control	plasma	male	86.0	34	apoe4	apoe4
+76	silver_seq	N_1_07_1	N_1	control	plasma	male	86.0	34	apoe4	apoe4
+77	silver_seq	N_1_08_1	N_1	control	plasma	male	86.0	34	apoe4	apoe4
+78	silver_seq	N_1_09_1	N_1	control	plasma	male	86.0	34	apoe4	apoe4
+79	silver_seq	N_2_00_1	N_2	control	plasma	female	93.0	33	no_apoe4	no_apoe4
+80	silver_seq	N_2_01_1	N_2	control	plasma	female	93.0	33	no_apoe4	no_apoe4
+81	silver_seq	N_2_03_1	N_2	control	plasma	female	93.0	33	no_apoe4	no_apoe4
+82	silver_seq	N_2_06_1	N_2	control	plasma	female	93.0	33	no_apoe4	no_apoe4
+83	silver_seq	N_2_08_1	N_2	control	plasma	female	93.0	33	no_apoe4	no_apoe4
+84	silver_seq	N_3_01_1	N_3	control	plasma	male	86.0	23	no_apoe4	no_apoe4
+85	silver_seq	N_3_03_1	N_3	control	plasma	male	86.0	23	no_apoe4	no_apoe4
+86	silver_seq	N_3_04_1	N_3	control	plasma	male	86.0	23	no_apoe4	no_apoe4
+87	silver_seq	N_3_06_1	N_3	control	plasma	male	86.0	23	no_apoe4	no_apoe4
+88	silver_seq	N_4_01_1	N_4	control	plasma	male	83.0	33	no_apoe4	no_apoe4
+89	silver_seq	N_4_02_1	N_4	control	plasma	male	83.0	33	no_apoe4	no_apoe4
+90	silver_seq	N_4_04_1	N_4	control	plasma	male	83.0	33	no_apoe4	no_apoe4
+91	silver_seq	N_4_06_1	N_4	control	plasma	male	83.0	33	no_apoe4	no_apoe4
+92	silver_seq	N_4_08_1	N_4	control	plasma	male	83.0	33	no_apoe4	no_apoe4
+93	silver_seq	N_5_03_1	N_5	control	plasma	male	89.0	33	no_apoe4	no_apoe4
+94	silver_seq	N_5_04_1	N_5	control	plasma	male	89.0	33	no_apoe4	no_apoe4
+95	silver_seq	N_5_06_1	N_5	control	plasma	male	89.0	33	no_apoe4	no_apoe4
+96	silver_seq	N_5_08_1	N_5	control	plasma	male	89.0	33	no_apoe4	no_apoe4
+97	silver_seq	N_5_10_1	N_5	control	plasma	male	89.0	33	no_apoe4	no_apoe4
+98	silver_seq	N_6_01_1	N_6	control	plasma	female	96.0	33	no_apoe4	no_apoe4
+99	silver_seq	N_6_02_1	N_6	control	plasma	female	96.0	33	no_apoe4	no_apoe4
+100	silver_seq	N_6_03_1	N_6	control	plasma	female	96.0	33	no_apoe4	no_apoe4
+101	silver_seq	N_6_06_1	N_6	control	plasma	female	96.0	33	no_apoe4	no_apoe4
+102	silver_seq	N_6_08_1	N_6	control	plasma	female	96.0	33	no_apoe4	no_apoe4
+103	silver_seq	N_7_01_1	N_7	control	plasma	female	83.0	34	apoe4	apoe4
+104	silver_seq	N_7_02_1	N_7	control	plasma	female	83.0	34	apoe4	apoe4
+105	silver_seq	N_7_04_1	N_7	control	plasma	female	83.0	34	apoe4	apoe4
+106	silver_seq	N_7_07_1	N_7	control	plasma	female	83.0	34	apoe4	apoe4
+107	silver_seq	N_8_01_1	N_8	control	plasma	female	73.0	33	no_apoe4	no_apoe4
+108	silver_seq	N_8_05_1	N_8	control	plasma	female	73.0	33	no_apoe4	no_apoe4
+109	silver_seq	N_8_07_1	N_8	control	plasma	female	73.0	33	no_apoe4	no_apoe4
+110	silver_seq	N_9_00_1	N_9	control	plasma	female	94.0	23	no_apoe4	no_apoe4
+111	silver_seq	N_9_03_1	N_9	control	plasma	female	94.0	23	no_apoe4	no_apoe4
+112	silver_seq	N_9_06_1	N_9	control	plasma	female	94.0	23	no_apoe4	no_apoe4
+113	silver_seq	N_9_08_1	N_9	control	plasma	female	94.0	23	no_apoe4	no_apoe4
+114	silver_seq	N_9_12_1	N_9	control	plasma	female	94.0	23	no_apoe4	no_apoe4
+0	toden	SRR10192321	434	control	plasma	female	75.0	33	no_apoe4	no_apoe4
+1	toden	SRR10192320	435	control	plasma	female	74.0	24	apoe4	apoe4
+2	toden	SRR10192319	438	control	plasma	female	73.0	33	no_apoe4	no_apoe4
+3	toden	SRR10192318	447	control	plasma	male	68.0	34	apoe4	apoe4
+4	toden	SRR10192317	447	control	plasma	male	68.0	34	apoe4	apoe4
+5	toden	SRR10192316	451	control	plasma	female	79.0	34	apoe4	apoe4
+6	toden	SRR10192315	454	control	plasma	male	71.0	33	no_apoe4	no_apoe4
+7	toden	SRR10192314	456	control	plasma	female	80.0	24	apoe4	apoe4
+8	toden	SRR10192313	457	control	plasma	female	68.0	24	apoe4	apoe4
+9	toden	SRR10192311	459	control	plasma	male	70.0	33	no_apoe4	no_apoe4
+10	toden	SRR10192310	460	control	plasma	female	76.0	33	no_apoe4	no_apoe4
+11	toden	SRR10192309	462	control	plasma	female	74.0	33	no_apoe4	no_apoe4
+12	toden	SRR10192307	464	control	plasma	male	73.0	23	no_apoe4	no_apoe4
+13	toden	SRR10192308	464	control	plasma	male	73.0	23	no_apoe4	no_apoe4
+14	toden	SRR10192306	465	control	plasma	female	77.0	33	no_apoe4	no_apoe4
+15	toden	SRR10192305	465	control	plasma	female	77.0	33	no_apoe4	no_apoe4
+16	toden	SRR10192303	466	control	plasma	male	65.0	33	no_apoe4	no_apoe4
+17	toden	SRR10192304	466	control	plasma	male	65.0	33	no_apoe4	no_apoe4
+18	toden	SRR10192302	468	control	plasma	female	73.0	33	no_apoe4	no_apoe4
+19	toden	SRR10192300	469	control	plasma	male	67.0	34	apoe4	apoe4
+20	toden	SRR10192299	470	control	plasma	female	67.0	34	apoe4	apoe4
+21	toden	SRR10192298	472	control	plasma	female	66.0	33	no_apoe4	no_apoe4
+22	toden	SRR10192297	473	control	plasma	male	80.0	33	no_apoe4	no_apoe4
+23	toden	SRR10192296	474	control	plasma	male	74.0	33	no_apoe4	no_apoe4
+24	toden	SRR10192295	475	control	plasma	female	66.0	24	apoe4	apoe4
+25	toden	SRR10192294	476	control	plasma	male	65.0	23	no_apoe4	no_apoe4
+26	toden	SRR10192293	476	control	plasma	male	65.0	23	no_apoe4	no_apoe4
+27	toden	SRR10192292	478	control	plasma	female	75.0	34	apoe4	apoe4
+28	toden	SRR10192289	479	control	plasma	male	72.0	23	no_apoe4	no_apoe4
+29	toden	SRR10192291	479	control	plasma	male	72.0	23	no_apoe4	no_apoe4
+30	toden	SRR10192288	480	control	plasma	female	83.0	33	no_apoe4	no_apoe4
+31	toden	SRR10192287	481	control	plasma	male	70.0	23	no_apoe4	no_apoe4
+32	toden	SRR10192286	481	control	plasma	male	70.0	23	no_apoe4	no_apoe4
+33	toden	SRR10192285	482	control	plasma	male	75.0	34	apoe4	apoe4
+34	toden	SRR10192284	483	control	plasma	male	73.0	33	no_apoe4	no_apoe4
+35	toden	SRR10192283	484	control	plasma	female	73.0	34	apoe4	apoe4
+36	toden	SRR10192282	485	control	plasma	female	70.0	33	no_apoe4	no_apoe4
+37	toden	SRR10192281	486	control	plasma	female	75.0	34	apoe4	apoe4
+38	toden	SRR10192280	487	control	plasma	female	69.0	34	apoe4	apoe4
+39	toden	SRR10192278	488	control	plasma	male	69.0	44	apoe4	apoe44
+40	toden	SRR10192277	489	control	plasma	female	67.0	33	no_apoe4	no_apoe4
+41	toden	SRR10192276	490	control	plasma	male	74.0	34	apoe4	apoe4
+42	toden	SRR10192275	490	control	plasma	male	74.0	34	apoe4	apoe4
+43	toden	SRR10192274	491	control	plasma	female	76.0	33	no_apoe4	no_apoe4
+44	toden	SRR10192273	492	control	plasma	female	72.0	34	apoe4	apoe4
+45	toden	SRR10192272	492	control	plasma	female	72.0	34	apoe4	apoe4
+46	toden	SRR10192270	493	control	plasma	female	73.0	34	apoe4	apoe4
+47	toden	SRR10192271	493	control	plasma	female	73.0	34	apoe4	apoe4
+48	toden	SRR10192269	501	control	plasma	male	72.0	33	no_apoe4	no_apoe4
+49	toden	SRR10192267	558	AD	plasma	female	94.0	33	no_apoe4	no_apoe4
+50	toden	SRR10192266	558	AD	plasma	female	94.0	33	no_apoe4	no_apoe4
+51	toden	SRR10192265	629	AD	plasma	male	69.0	33	no_apoe4	no_apoe4
+52	toden	SRR10192264	629	AD	plasma	male	69.0	33	no_apoe4	no_apoe4
+53	toden	SRR10192263	631	AD	plasma	male	60.0	33	no_apoe4	no_apoe4
+54	toden	SRR10192262	631	AD	plasma	male	60.0	33	no_apoe4	no_apoe4
+55	toden	SRR10192261	632	AD	plasma	female	84.0	23	no_apoe4	no_apoe4
+56	toden	SRR10192260	632	AD	plasma	female	84.0	23	no_apoe4	no_apoe4
+57	toden	SRR10192259	633	AD	plasma	female	82.0	34	apoe4	apoe4
+58	toden	SRR10192258	633	AD	plasma	female	82.0	34	apoe4	apoe4
+59	toden	SRR10192255	636	AD	plasma	female	82.0			
+60	toden	SRR10192256	636	AD	plasma	female	82.0			
+61	toden	SRR10192254	634	AD	plasma	female	71.0	44	apoe4	apoe44
+62	toden	SRR10192253	634	AD	plasma	female	71.0	44	apoe4	apoe44
+63	toden	SRR10192251	637	AD	plasma	female	79.0			
+64	toden	SRR10192252	637	AD	plasma	female	79.0			
+65	toden	SRR10192249	646	AD	plasma	male	54.0			
+66	toden	SRR10192250	646	AD	plasma	male	54.0			
+67	toden	SRR10192247	647	AD	plasma	female	71.0			
+68	toden	SRR10192248	647	AD	plasma	female	71.0			
+69	toden	SRR10192244	648	AD	plasma	male	88.0			
+70	toden	SRR10192245	648	AD	plasma	male	88.0			
+71	toden	SRR10192243	649	AD	plasma	female	88.0			
+72	toden	SRR10192242	649	AD	plasma	female	88.0			
+73	toden	SRR10192240	650	AD	plasma	female	62.0			
+74	toden	SRR10192241	650	AD	plasma	female	62.0			
+75	toden	SRR10192239	651	AD	plasma	male	60.0			
+76	toden	SRR10192238	651	AD	plasma	male	60.0			
+77	toden	SRR10192236	652	AD	plasma	male	74.0			
+78	toden	SRR10192237	652	AD	plasma	male	74.0			
+79	toden	SRR10192234	653	AD	plasma	female	88.0			
+80	toden	SRR10192233	653	AD	plasma	female	88.0			
+81	toden	SRR10192232	654	AD	plasma	female	60.0			
+82	toden	SRR10192231	654	AD	plasma	female	60.0			
+83	toden	SRR10192229	655	AD	plasma	female	72.0			
+84	toden	SRR10192230	655	AD	plasma	female	72.0			
+85	toden	SRR10192227	656	AD	plasma	female	80.0			
+86	toden	SRR10192228	656	AD	plasma	female	80.0			
+87	toden	SRR10192225	657	AD	plasma	male	86.0			
+88	toden	SRR10192226	657	AD	plasma	male	86.0			
+89	toden	SRR10192222	658	AD	plasma	female	71.0			
+90	toden	SRR10192221	659	AD	plasma	female	60.0			
+91	toden	SRR10192220	660	AD	plasma	male	68.0			
+92	toden	SRR10192218	662	AD	plasma	female	75.0			
+93	toden	SRR10192219	662	AD	plasma	female	75.0			
+94	toden	SRR10192217	664	AD	plasma	male	73.0			
+95	toden	SRR10192216	665	AD	plasma	female	70.0			
+96	toden	SRR10192215	666	AD	plasma	male	76.0			
+97	toden	SRR10192214	667	AD	plasma	male	67.0			
+98	toden	SRR10192213	668	AD	plasma	female	64.0			
+99	toden	SRR10192211	669	AD	plasma	female	72.0			
+100	toden	SRR10192210	670	AD	plasma	male	81.0			
+101	toden	SRR10192209	671	AD	plasma	male	83.0			
+102	toden	SRR10192208	673	AD	plasma	male	74.0			
+103	toden	SRR10192207	674	AD	plasma	male	74.0			
+104	toden	SRR10192206	675	AD	plasma	male	71.0			
+105	toden	SRR10192205	682	AD	plasma	female	73.0			
+106	toden	SRR10192204	683	AD	plasma	female	83.0			
+107	toden	SRR10192203	684	AD	plasma	male	77.0			
+108	toden	SRR10192202	685	AD	plasma	female	69.0			
+109	toden	SRR10192199	686	AD	plasma	female	76.0			
+110	toden	SRR10192200	686	AD	plasma	female	76.0			
+111	toden	SRR10192198	687	AD	plasma	female	93.0	33	no_apoe4	no_apoe4
+112	toden	SRR10192197	688	AD	plasma	female	0.0			
+113	toden	SRR10192196	689	AD	plasma	female	82.0			
+114	toden	SRR10192195	690	AD	plasma	male	71.0	34	apoe4	apoe4
+115	toden	SRR10192194	691	AD	plasma	male	83.0	34	apoe4	apoe4
+116	toden	SRR10192193	692	AD	plasma	female	67.0	44	apoe4	apoe44
+117	toden	SRR10192192	693	AD	plasma	female	69.0	33	no_apoe4	no_apoe4
+118	toden	SRR10192189	694	AD	plasma	male	69.0	34	apoe4	apoe4
+119	toden	SRR10192191	694	AD	plasma	male	69.0	34	apoe4	apoe4
+120	toden	SRR10192188	695	AD	plasma	female	86.0			
+121	toden	SRR10192187	696	AD	plasma	male	66.0			
+122	toden	SRR10192186	697	AD	plasma	female	72.0	44	apoe4	apoe44
+123	toden	SRR10192185	699	AD	plasma	male	76.0	33	no_apoe4	no_apoe4
+124	toden	SRR10192184	700	AD	plasma	male	78.0	34	apoe4	apoe4
+125	toden	SRR10192183	701	AD	plasma	male	83.0	33	no_apoe4	no_apoe4
+126	toden	SRR10192182	702	AD	plasma	female	87.0	23	no_apoe4	no_apoe4
+127	toden	SRR10192181	703	AD	plasma	female	72.0	44	apoe4	apoe44
+128	toden	SRR10192180	705	AD	plasma	male	81.0	34	apoe4	apoe4
+129	toden	SRR10192178	710	AD	plasma	male	67.0	34	apoe4	apoe4
+130	toden	SRR10192177	711	AD	plasma	male	70.0			
+131	toden	SRR10192176	712	AD	plasma	male	92.0	33	no_apoe4	no_apoe4
+132	toden	SRR10192175	712	AD	plasma	male	92.0	33	no_apoe4	no_apoe4
+133	toden	SRR10192174	713	AD	plasma	female	90.0	34	apoe4	apoe4
+134	toden	SRR10192172	776	control	plasma	female	80.0	34	apoe4	apoe4
+135	toden	SRR10192173	776	control	plasma	female	80.0	34	apoe4	apoe4
+136	toden	SRR10192170	778	control	plasma	female	84.0	34	apoe4	apoe4
+137	toden	SRR10192171	778	control	plasma	female	84.0	34	apoe4	apoe4
+138	toden	SRR10192167	779	control	plasma	female	95.0	33	no_apoe4	no_apoe4
+139	toden	SRR10192169	779	control	plasma	female	95.0	33	no_apoe4	no_apoe4
+140	toden	SRR10192166	780	control	plasma	female	83.0	33	no_apoe4	no_apoe4
+141	toden	SRR10192165	781	control	plasma	male	83.0	23	no_apoe4	no_apoe4
+142	toden	SRR10192338	781	control	plasma	male	83.0	23	no_apoe4	no_apoe4
+143	toden	SRR10192501	782	control	plasma	female	83.0	34	apoe4	apoe4
+144	toden	SRR10192502	782	control	plasma	female	83.0	34	apoe4	apoe4
+145	toden	SRR10192499	784	control	plasma	female	80.0	33	no_apoe4	no_apoe4
+146	toden	SRR10192500	784	control	plasma	female	80.0	33	no_apoe4	no_apoe4
+147	toden	SRR10192497	790	control	plasma	male	80.0	34	apoe4	apoe4
+148	toden	SRR10192498	790	control	plasma	male	80.0	34	apoe4	apoe4
+149	toden	SRR10192494	773	control	plasma	female	82.0	23	no_apoe4	no_apoe4
+150	toden	SRR10192495	773	control	plasma	female	82.0	23	no_apoe4	no_apoe4
+151	toden	SRR10192493	753	control	plasma	female	75.0	34	apoe4	apoe4
+152	toden	SRR10192491	774	control	plasma	female	83.0	33	no_apoe4	no_apoe4
+153	toden	SRR10192492	774	control	plasma	female	83.0	33	no_apoe4	no_apoe4
+154	toden	SRR10192489	772	control	plasma	female	93.0	34	apoe4	apoe4
+155	toden	SRR10192490	772	control	plasma	female	93.0	34	apoe4	apoe4
+156	toden	SRR10192488	769	control	plasma	male	96.0	33	no_apoe4	no_apoe4
+157	toden	SRR10192487	758	control	plasma	male	89.0			
+158	toden	SRR10192484	756	control	plasma	male	77.0	33	no_apoe4	no_apoe4
+159	toden	SRR10192486	756	control	plasma	male	77.0	33	no_apoe4	no_apoe4
+160	toden	SRR10192482	755	control	plasma	male	90.0	33	no_apoe4	no_apoe4
+161	toden	SRR10192483	755	control	plasma	male	90.0	33	no_apoe4	no_apoe4
+162	toden	SRR10192480	757	control	plasma	female	84.0	33	no_apoe4	no_apoe4
+163	toden	SRR10192481	757	control	plasma	female	84.0	33	no_apoe4	no_apoe4
+164	toden	SRR10192478	771	control	plasma	female	87.0	33	no_apoe4	no_apoe4
+165	toden	SRR10192479	771	control	plasma	female	87.0	33	no_apoe4	no_apoe4
+166	toden	SRR10192476	770	control	plasma	male	89.0	34	apoe4	apoe4
+167	toden	SRR10192477	770	control	plasma	male	89.0	34	apoe4	apoe4
+168	toden	SRR10192473	768	control	plasma	male	81.0	33	no_apoe4	no_apoe4
+169	toden	SRR10192475	768	control	plasma	male	81.0	33	no_apoe4	no_apoe4
+170	toden	SRR10192472	612	AD	plasma	male	82.0	33	no_apoe4	no_apoe4
+171	toden	SRR10192471	573	AD	plasma	female	96.0	33	no_apoe4	no_apoe4
+172	toden	SRR10192470	572	AD	plasma	female	84.0	34	apoe4	apoe4
+173	toden	SRR10192469	622	AD	plasma	female	71.0			
+174	toden	SRR10192467	751	control	plasma	female	89.0	33	no_apoe4	no_apoe4
+175	toden	SRR10192468	751	control	plasma	female	89.0	33	no_apoe4	no_apoe4
+176	toden	SRR10192466	754	control	plasma	female	68.0	34	apoe4	apoe4
+177	toden	SRR10192464	752	control	plasma	male	82.0	33	no_apoe4	no_apoe4
+178	toden	SRR10192465	752	control	plasma	male	82.0	33	no_apoe4	no_apoe4
+179	toden	SRR10192462	580	AD	plasma	female	88.0	33	no_apoe4	no_apoe4
+180	toden	SRR10192460	1004	control	plasma	male	80.0			
+181	toden	SRR10192461	1004	control	plasma	male	80.0			
+182	toden	SRR10192458	1005	control	plasma	female	79.0			
+183	toden	SRR10192459	1005	control	plasma	female	79.0			
+184	toden	SRR10192456	1007	control	plasma	female	77.0			
+185	toden	SRR10192457	1007	control	plasma	female	77.0			
+186	toden	SRR10192454	1009	control	plasma	male	81.0			
+187	toden	SRR10192455	1009	control	plasma	male	81.0			
+188	toden	SRR10192450	1010	control	plasma	female	85.0			
+189	toden	SRR10192453	1010	control	plasma	female	85.0			
+190	toden	SRR10192449	1011	control	plasma	male	82.0			
+191	toden	SRR10192448	1011	control	plasma	male	82.0			
+192	toden	SRR10192446	1012	control	plasma	male	90.0			
+193	toden	SRR10192447	1012	control	plasma	male	90.0			
+194	toden	SRR10192445	1013	control	plasma	female	83.0			
+195	toden	SRR10192444	1013	control	plasma	female	83.0			
+196	toden	SRR10192442	1014	control	plasma	female	81.0			
+197	toden	SRR10192443	1014	control	plasma	female	81.0			
+198	toden	SRR10192439	1015	control	plasma	male	79.0			
+199	toden	SRR10192441	1015	control	plasma	male	79.0			
+200	toden	SRR10192438	1016	control	plasma	male	79.0			
+201	toden	SRR10192437	1017	control	plasma	female	79.0			
+202	toden	SRR10192436	1018	control	plasma	male	79.0			
+203	toden	SRR10192435	1018	control	plasma	male	79.0			
+204	toden	SRR10192434	1020	control	plasma	female	78.0			
+205	toden	SRR10192432	1021	control	plasma	female	82.0			
+206	toden	SRR10192433	1021	control	plasma	female	82.0			
+207	toden	SRR10192430	1024	control	plasma	female	84.0			
+208	toden	SRR10192431	1024	control	plasma	female	84.0			
+209	toden	SRR10192428	1025	control	plasma	male	77.0			
+210	toden	SRR10192427	1026	control	plasma	female	77.0			
+211	toden	SRR10192426	1028	control	plasma	male	83.0			
+212	toden	SRR10192425	1028	control	plasma	male	83.0			
+213	toden	SRR10192423	1029	control	plasma	female	79.0			
+214	toden	SRR10192424	1029	control	plasma	female	79.0			
+215	toden	SRR10192421	1032	control	plasma	male	85.0			
+216	toden	SRR10192422	1032	control	plasma	male	85.0			
+217	toden	SRR10192420	1033	control	plasma	male	77.0			
+218	toden	SRR10192417	1034	control	plasma	female	77.0			
+219	toden	SRR10192419	1034	control	plasma	female	77.0			
+220	toden	SRR10192415	1036	control	plasma	male	79.0			
+221	toden	SRR10192414	1036	control	plasma	male	79.0			
+222	toden	SRR10192413	1030	control	plasma	female	77.0			
+223	toden	SRR10192412	1030	control	plasma	female	77.0			
+224	toden	SRR10192336	1537	AD	plasma	female	70.0			
+225	toden	SRR10192335	1528	AD	plasma	female	65.0			
+226	toden	SRR10192452	1565	AD	plasma	female	58.0			
+227	toden	SRR10192224	1565	AD	plasma	female	58.0			
+228	toden	SRR10192392	1546	AD	plasma	female	74.0			
+229	toden	SRR10192403	1546	AD	plasma	female	74.0			
+230	toden	SRR10192370	1538	AD	plasma	female	63.0			
+231	toden	SRR10192381	1538	AD	plasma	female	63.0			
+232	toden	SRR10192348	1554	AD	plasma	female	65.0			
+233	toden	SRR10192359	1554	AD	plasma	female	65.0			
+234	toden	SRR10192323	1519	AD	plasma	male	67.0			
+235	toden	SRR10192334	1519	AD	plasma	male	67.0			
+236	toden	SRR10192301	1518	AD	plasma	male	73.0			
+237	toden	SRR10192312	1518	AD	plasma	male	73.0			
+238	toden	SRR10192279	1529	AD	plasma	male	82.0			
+239	toden	SRR10192290	1529	AD	plasma	male	82.0			
+240	toden	SRR10192257	1509	AD	plasma	female	62.0			
+241	toden	SRR10192268	1509	AD	plasma	female	62.0			
+242	toden	SRR10192246	1566	AD	plasma	female	67.0			
+243	toden	SRR10192235	1566	AD	plasma	female	67.0			
+244	toden	SRR10192212	1547	AD	plasma	female	79.0			
+245	toden	SRR10192223	1547	AD	plasma	female	79.0			
+246	toden	SRR10192190	1555	AD	plasma	female	80.0			
+247	toden	SRR10192201	1555	AD	plasma	female	80.0			
+248	toden	SRR10192168	1530	AD	plasma	female	77.0			
+249	toden	SRR10192179	1530	AD	plasma	female	77.0			
+250	toden	SRR10192485	1510	AD	plasma	female	82.0			
+251	toden	SRR10192496	1510	AD	plasma	female	82.0			
+252	toden	SRR10192463	1531	AD	plasma	female	60.0			
+253	toden	SRR10192474	1531	AD	plasma	female	60.0			
+254	toden	SRR10192451	1520	AD	plasma	male	79.0			
+255	toden	SRR10192440	1520	AD	plasma	male	79.0			
+256	toden	SRR10192429	1511	AD	plasma	male	80.0			
+257	toden	SRR10192418	1511	AD	plasma	male	80.0			
+258	toden	SRR10192409	1556	AD	plasma	female	73.0			
+259	toden	SRR10192408	1556	AD	plasma	female	73.0			
+260	toden	SRR10192407	1548	AD	plasma	male	76.0			
+261	toden	SRR10192406	1521	AD	plasma	male	79.0			
+262	toden	SRR10192405	1512	AD	plasma	female	75.0			
+263	toden	SRR10192404	1522	AD	plasma	female	58.0			
+264	toden	SRR10192402	1558	AD	plasma	female	71.0			
+265	toden	SRR10192401	1523	AD	plasma	female	76.0			
+266	toden	SRR10192400	1532	AD	plasma	male	73.0			
+267	toden	SRR10192399	1539	AD	plasma	female	65.0			
+268	toden	SRR10192398	1549	AD	plasma	male	71.0			
+269	toden	SRR10192397	1540	AD	plasma	female	77.0			
+270	toden	SRR10192396	1541	AD	plasma	male	75.0			
+271	toden	SRR10192395	1533	AD	plasma	female	62.0			
+272	toden	SRR10192394	1524	AD	plasma	female	79.0			
+273	toden	SRR10192393	1567	AD	plasma	female	92.0			
+274	toden	SRR10192391	1542	AD	plasma	male	76.0			
+275	toden	SRR10192390	1534	AD	plasma	female	77.0			
+276	toden	SRR10192389	1525	AD	plasma	female	85.0			
+277	toden	SRR10192388	1568	AD	plasma	male	86.0			
+278	toden	SRR10192387	1513	AD	plasma	male	74.0			
+279	toden	SRR10192386	1543	AD	plasma	male	71.0			
+280	toden	SRR10192385	1514	AD	plasma	female	57.0			
+281	toden	SRR10192384	1550	AD	plasma	female	65.0			
+282	toden	SRR10192383	1551	AD	plasma	male	73.0			
+283	toden	SRR10192382	1552	AD	plasma	female	88.0			
+284	toden	SRR10192380	1515	AD	plasma	male	79.0			
+285	toden	SRR10192379	1544	AD	plasma	female	81.0			
+286	toden	SRR10192378	1545	AD	plasma	male	74.0			
+287	toden	SRR10192377	1516	AD	plasma	male	74.0			
+288	toden	SRR10192375	1569	AD	plasma	male	78.0			
+289	toden	SRR10192376	1569	AD	plasma	male	78.0			
+290	toden	SRR10192374	1553	AD	plasma	female	74.0			
+291	toden	SRR10192373	1517	AD	plasma	male				
+292	toden	SRR10192372	1526	AD	plasma	female	84.0			
+293	toden	SRR10192371	1527	AD	plasma	male	78.0			
+294	toden	SRR10192369	1559	AD	plasma	female	68.0			
+295	toden	SRR10192368	1559	AD	plasma	female	68.0			
+296	toden	SRR10192367	1535	AD	plasma	male	81.0			
+297	toden	SRR10192365	1560	AD	plasma	female	76.0			
+298	toden	SRR10192366	1560	AD	plasma	female	76.0			
+299	toden	SRR10192364	1561	AD	plasma	male	67.0			
+300	toden	SRR10192363	1562	AD	plasma	female	82.0			
+301	toden	SRR10192362	1570	AD	plasma	female	92.0			
+302	toden	SRR10192361	1536	AD	plasma	female	67.0			
+303	toden	SRR10192360	1563	AD	plasma	female	88.0			
+304	toden	SRR10192357	2630	control	plasma	female	101.0			
+305	toden	SRR10192356	2631	control	plasma	male	66.0			
+306	toden	SRR10192355	2632	control	plasma	female	66.0			
+307	toden	SRR10192354	2633	control	plasma	female	65.0			
+308	toden	SRR10192353	2634	control	plasma	female	77.0			
+309	toden	SRR10192352	2635	control	plasma	female	66.0			
+310	toden	SRR10192350	2636	control	plasma	male	67.0			
+311	toden	SRR10192351	2636	control	plasma	male	67.0			
+312	toden	SRR10192349	2637	control	plasma	male	68.0			
+313	toden	SRR10192347	2638	control	plasma	male	67.0			
+314	toden	SRR10192346	2638	control	plasma	male	67.0			
+315	toden	SRR10192345	2639	control	plasma	female	72.0			
+316	toden	SRR10192343	2640	control	plasma	male	80.0			
+317	toden	SRR10192344	2640	control	plasma	male	80.0			
+318	toden	SRR10192342	2641	control	plasma	female	65.0			
+319	toden	SRR10192341	2642	control	plasma	male	66.0			
+320	toden	SRR10192340	2643	control	plasma	female	68.0			
+321	toden	SRR10192339	2646	control	plasma	male	86.0			
+322	toden	SRR10192337	2647	control	plasma	female	71.0			
+323	toden	SRR10192333	2649	control	plasma	male	81.0			
+324	toden	SRR10192332	2651	control	plasma	female	65.0			
+325	toden	SRR10192331	2652	control	plasma	female	75.0			
+326	toden	SRR10192330	2653	control	plasma	female	88.0			
+327	toden	SRR10192329	2655	control	plasma	male	66.0			
+328	toden	SRR10192328	2656	control	plasma	female	82.0			
+329	toden	SRR10192327	2657	control	plasma	female	87.0			
+330	toden	SRR10192326	2658	control	plasma	male	86.0			
+331	toden	SRR10192325	2659	control	plasma	female	65.0			
+332	toden	SRR10192324	2660	control	plasma	male	66.0			
+333	toden	SRR10192322	2662	control	plasma	male	65.0			
