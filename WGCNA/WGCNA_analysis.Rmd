@@ -1,0 +1,216 @@
+---
+title: WGCNA Analysis
+output: html_document
+---
+
+```{r}
+library(WGCNA)
+library(dplyr)
+library(tibble)
+library(readr)
+library(tidyr)
+library(ggplot2)
+library(DESeq2)
+
+enableWGCNAThreads()
+set.seed(1)
+```
+
+```{r}
+METADATA_PATH <- "combined_metadata.tsv"
+DATA_PATHS <- list(
+  burgos_dbgap = "burgos_dbgap/burgos_dbgap_counts.txt",
+  silver_seq = "silver_seq/silver_seq_counts.txt",
+  toden = "toden/toden_counts.txt"
+)
+STUDIES <- names(DATA_PATHS)
+```
+
+```{r}
+get_study <- function(study) {
+    # load metadata
+    metadata <- read_tsv(METADATA_PATH, na = "", show_col_types = FALSE) %>%
+        filter(study == !!study) %>%
+        filter(type != "CSF") %>%
+        drop_na(age) %>%
+        transmute(
+            sample_id = as.character(sample_id),
+            subject_id = as.character(subject_id),
+            group = if_else(group == "AD", 1, 0),
+            age = as.numeric(age),
+            sex = if_else(sex == "male", 1, 0)
+        ) %>%
+        column_to_rownames("sample_id")
+
+    # load data
+    data <- read_tsv(DATA_PATHS[[study]], skip = 1, col_names = FALSE, show_col_types = FALSE)
+    colnames <- colnames(read_tsv(DATA_PATHS[[study]], n_max = 0, show_col_types = FALSE))
+    colnames(data) <- c("genes", colnames)
+    data <- data %>% column_to_rownames(var = "genes")
+
+    # filter genes and samples
+    samples <- intersect(rownames(metadata), colnames(data))
+    genes <- rownames(data)[rowSums(data >= 1) >= 0.25 * ncol(data)]
+    data <- as.matrix(data)[genes, samples]
+    metadata <- metadata[samples, ]
+
+    # average over subjects
+    subjects <- unique(metadata$subject_id)
+    data <- sapply(subjects, function(s) {
+        cols <- which(metadata$subject_id == s)
+        round(rowMeans(data[, cols, drop = FALSE]))
+    })
+    rownames(data) <- rownames(data)
+    colnames(data) <- subjects
+    metadata <- metadata[match(subjects, metadata$subject_id), ]
+    metadata$subject_id <- NULL
+    rownames(metadata) <- subjects
+    
+    # normalize data
+    data <- t(vst(data, blind = TRUE))
+
+    # quality control
+    good <- goodSamplesGenes(data)
+    data <- data[good$goodSamples, good$goodGenes]
+    metadata <- metadata[good$goodSamples, ]
+    var <- apply(data, 2, var)
+    mask <- order(var, decreasing = TRUE)[1:15000]
+    data <- data[, mask]
+    
+    list(data = data, metadata = metadata)
+}
+```
+
+```{r}
+studies <- lapply(STUDIES, get_study)
+names(studies) <- STUDIES
+```
+
+```{r, fig.width = 18, fig.height = 6}
+for (study in STUDIES) {
+    tree <- hclust(dist(studies[[study]]$data), method = "average")
+    plot(tree, main = paste0("Sample Clustering: ", study),
+       sub = "", xlab = "", cex = 0.6)
+}
+```
+
+```{r, fig.width = 12, fig.height = 6}
+powers <- setNames(numeric(length(STUDIES)), STUDIES)
+
+for (study in STUDIES) {
+    sft <- pickSoftThreshold(studies[[study]]$data, 
+        powerVector = c(1:10, seq(12, 20, 2)), verbose = 0)
+    powers[study] <- sft$powerEstimate
+    
+    par(mfrow = c(1, 2))
+    plot(sft$fitIndices$Power, -sign(sft$fitIndices$slope) * sft$fitIndices$SFT.R.sq,
+        xlab = "Soft power", ylab = "Scale-free R^2",
+        main = paste0("Scale Independence: ", study))
+    abline(h = 0.85, col = "red")
+    plot(sft$fitIndices$Power, sft$fitIndices$mean.k.,
+        xlab = "Soft power", ylab = "Mean connectivity",
+        main = paste0("Mean Connectivity: ", study))
+}
+print(powers)
+```
+
+```{r}
+cor <- WGCNA::cor
+
+get_network <- function(study, data, power) {
+    net <- blockwiseModules(data, power = power, 
+        numericLabels = TRUE, pamRespectsDendro = FALSE,
+        mergeCutHeight = if_else(study == "silver_seq", 0.4, 0.15), 
+        minModuleSize = 30, verbose = 0)
+    colors <- labels2colors(net$colors)
+    MEs <- orderMEs(moduleEigengenes(data, colors)$eigengenes)
+    list(net = net, colors = colors, MEs = MEs)
+}
+for (study in STUDIES) {
+    studies[[study]]$network = get_network(study,
+        studies[[study]]$data, powers[study])
+    print(table(studies[[study]]$network$colors))
+}
+```
+
+```{r, fig.width = 8, fig.height = 8}
+get_module_trait <- function(data, metadata, MEs) {
+    cors  <- cor(MEs, metadata, use = "pairwise.complete.obs")
+    pvals <- corPvalueStudent(cors, nrow(data))
+    list(cor = cors, p = pvals)
+}
+for (study in STUDIES) {
+    studies[[study]]$module_trait = get_module_trait(studies[[study]]$data, 
+        studies[[study]]$metadata, studies[[study]]$network$MEs)
+    text <- paste0(signif(studies[[study]]$module_trait$cor, 2), 
+        "\n(", signif(studies[[study]]$module_trait$p, 1), ")")
+    dim(text) <- dim(studies[[study]]$module_trait$cor)
+    
+    par(mar = c(6, 9, 3, 1))
+    labeledHeatmap(
+        Matrix = studies[[study]]$module_trait$cor, 
+        xLabels = colnames(studies[[study]]$module_trait$cor),
+        yLabels = rownames(studies[[study]]$module_trait$cor), 
+        ySymbols = rownames(studies[[study]]$module_trait$cor),
+        colorLabels = FALSE, colors = blueWhiteRed(50),
+        textMatrix = text, setStdMargins = FALSE, 
+        cex.text = 0.6, zlim = c(-1, 1), 
+        main = paste0("Module Trait Relationships: ", study)
+    )
+}
+```
+
+```{r}
+common_genes <- Reduce(intersect, lapply(studies, function(s) colnames(s$data)))
+reference_study <- "toden"
+test_studies <- setdiff(STUDIES, reference_study)
+ordered_studies <- c(reference_study, test_studies)
+ordered_data <- lapply(ordered_studies, function(s)
+    list(data = studies[[s]]$data[, common_genes]))
+names(ordered_data) <- ordered_studies
+
+reference_colors <- studies[[reference_study]]$network$colors
+names(reference_colors) <- colnames(studies[[reference_study]]$data)
+colors <- list(reference_colors[common_genes])
+names(colors) <- reference_study
+
+preserved_modules <- modulePreservation(ordered_data, colors)
+```
+```{r, fig.width = 8, fig.height = 4}
+z_summaries <- preserved_modules$preservation$Z[[paste0("ref.", reference_study)]]
+summary <- lapply(test_studies, function(s) {
+  stats <- z_summaries[[paste0("inColumnsAlsoPresentIn.", s)]]
+  tibble(module = rownames(stats), !!paste0("Z_", s) := stats$Zsummary.pres)
+})
+
+summary[[3]] <- tibble(module = sub("^ME", "", 
+    rownames(studies[[reference_study]]$module_trait$cor)),
+    cor = studies[[reference_study]]$module_trait$cor[, "group"],
+    p = studies[[reference_study]]$module_trait$p[, "group"])
+
+summary <- Reduce(function(a, b) full_join(a, b, by = c("module")), 
+  summary) %>% filter(!module %in% c("gold", "grey")) %>% rowwise() %>%
+  mutate(Z_avg = mean(c_across(starts_with("Z_")))) %>% ungroup()
+
+ggplot(summary, aes(x = p, y = Z_avg, label = module)) +
+  geom_hline(yintercept = 2, linetype = "dashed") +
+  geom_vline(xintercept = 0.05, linetype = "dashed") +
+  geom_point(aes(color = module), size = 3, show.legend = FALSE) +
+  geom_text(vjust = -0.8, size = 3) + scale_x_log10() +
+  scale_color_manual(values = setNames(summary$module, summary$module)) +
+  labs(y = "Average ZSummary", x = "Correlation P-Value")
+```
+```{r}
+MODULES <- c("cyan", "blue", "red", "turquoise", "brown", "magenta")
+kME <- signedKME(studies[[reference_study]]$data, studies[[reference_study]]$network$MEs)
+
+hub_genes <- lapply(MODULES, function(m) {
+  genes <- colnames(studies[[reference_study]]$data)[colors[[reference_study]] == m]
+  kme_column <- paste0("kME", m)
+  tibble(module = m, gene = genes, kME  = kME[genes, kme_column]) %>%
+    arrange(desc(kME)) %>% slice_head(n = 3)
+})
+hub_genes <- bind_rows(hub_genes)
+hub_genes
+writeLines(unlist(hub_genes$gene), "WGCNA_hub_genes.txt")
+```
