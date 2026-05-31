@@ -13,3 +13,8 @@ The common metadata information we found in all three datasets included sex, age
 # Classification Methods
 
 # Results
+
+# Sources
+
+- https://bioinformaticsworkbook.org/tutorials/wgcna.html
+- https://smorabit.github.io/hdWGCNA/articles/module_preservation.html
