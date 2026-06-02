@@ -11,17 +11,19 @@ library(readr)
 library(tidyr)
 library(ggplot2)
 library(DESeq2)
+library(clusterProfiler)
+library(org.Hs.eg.db)
 
 enableWGCNAThreads()
 set.seed(1)
 ```
 
 ```{r}
-METADATA_PATH <- "combined_metadata.tsv"
+METADATA_PATH <- "../combined_metadata.tsv"
 DATA_PATHS <- list(
-  burgos_dbgap = "burgos_dbgap/burgos_dbgap_counts.txt",
-  silver_seq = "silver_seq/silver_seq_counts.txt",
-  toden = "toden/toden_counts.txt"
+  burgos_dbgap = "../burgos_dbgap/burgos_dbgap_counts.txt",
+  silver_seq = "../silver_seq/silver_seq_counts.txt",
+  toden = "../toden/toden_counts.txt"
 )
 STUDIES <- names(DATA_PATHS)
 ```
@@ -176,7 +178,7 @@ names(colors) <- reference_study
 
 preserved_modules <- modulePreservation(ordered_data, colors)
 ```
-```{r, fig.width = 8, fig.height = 4}
+```{r, fig.width = 5, fig.height = 4}
 z_summaries <- preserved_modules$preservation$Z[[paste0("ref.", reference_study)]]
 summary <- lapply(test_studies, function(s) {
   stats <- z_summaries[[paste0("inColumnsAlsoPresentIn.", s)]]
@@ -192,13 +194,14 @@ summary <- Reduce(function(a, b) full_join(a, b, by = c("module")),
   summary) %>% filter(!module %in% c("gold", "grey")) %>% rowwise() %>%
   mutate(Z_avg = mean(c_across(starts_with("Z_")))) %>% ungroup()
 
-ggplot(summary, aes(x = p, y = Z_avg, label = module)) +
-  geom_hline(yintercept = 2, linetype = "dashed") +
-  geom_vline(xintercept = 0.05, linetype = "dashed") +
+ggplot(summary, aes(x = -1 * log10(p), y = Z_avg, label = module)) +
+  geom_hline(yintercept = 2, linetype = "dashed") + 
+  geom_vline(xintercept = -1 * log10(0.05), linetype = "dashed") +
   geom_point(aes(color = module), size = 3, show.legend = FALSE) +
-  geom_text(vjust = -0.8, size = 3) + scale_x_log10() +
+  geom_text(vjust = -0.8, size = 3) + xlim(-1, NA) +
   scale_color_manual(values = setNames(summary$module, summary$module)) +
-  labs(y = "Average ZSummary", x = "Correlation P-Value")
+  labs(y = "Cross-Study Preservation", 
+       x = expression("Significance of Disease Association"))
 ```
 ```{r}
 MODULES <- c("cyan", "blue", "red", "turquoise", "brown", "magenta")
@@ -213,4 +216,19 @@ hub_genes <- lapply(MODULES, function(m) {
 hub_genes <- bind_rows(hub_genes)
 hub_genes
 writeLines(unlist(hub_genes$gene), "WGCNA_hub_genes.txt")
+```
+
+```{r, , fig.width = 12, fig.height = 12}
+ORA <- function(module) {
+  colors <- studies[[reference_study]]$network$colors
+  names(colors) <- colnames(studies[[reference_study]]$data)
+  genes <- names(colors)[colors == module]
+  ego <- enrichGO(gene = genes, universe = names(colors),
+    OrgDb = org.Hs.eg.db, keyType = "ENSEMBL", ont = "ALL",
+    pvalueCutoff = 1, qvalueCutoff = 1)
+  if (is.null(ego) || nrow(as.data.frame(ego)) == 0) { return(NULL) }
+  print(head(as.data.frame(ego)))
+  print(dotplot(ego, showCategory = 20, title = module))
+}
+for (module in MODULES) { ORA(module) }
 ```
