@@ -1,0 +1,106 @@
+---
+title: Data Preprocessing
+output: html_document
+---
+
+```{r}
+library(edgeR)
+library(limma)
+library(matrixStats)
+library(ggplot2)
+library(readr)
+```
+
+```{r}
+burgos_counts <- read.delim("burgos_dbgap/burgos_dbgap_counts.txt", header = TRUE, sep = "\t")
+colnames(burgos_counts) <- gsub("X", "", colnames(burgos_counts))
+silver_counts <- read.delim("silver_seq/silver_seq_counts.txt", header = TRUE, sep = "\t")
+toden_counts <- read.delim("toden/toden_counts.txt", header = TRUE, sep = "\t")
+counts <- cbind(burgos_counts, silver_counts, toden_counts)
+
+metadata <- read.delim("combined_metadata.tsv", header = TRUE, sep = "\t")
+metadata <- metadata[, c("sample_id", "study", "group")]
+rownames(metadata) <- metadata$sample_id
+
+batch <- metadata$study
+samples <- intersect(colnames(counts), rownames(metadata))
+zero_count_genes <- Reduce(`|`, lapply(unique(batch), function(b){
+  rowSums(counts[, batch == b, drop = FALSE]) == 0
+}))
+metadata <- metadata[samples, ]
+counts <- as.matrix(counts[!zero_count_genes, samples])
+```
+
+```{r, fig.width = 6, fig.height = 4}
+plot_pca <- function(data, metadata, title, ntop = 2000) {
+  vars <- rowVars(data)
+  top <- order(vars, decreasing = TRUE)[seq_len(min(ntop, length(vars)))]
+  pca <- prcomp(t(data[top, ]), center = TRUE, scale. = FALSE)
+  pv <- round(100 * pca$sdev^2 / sum(pca$sdev^2), 1)
+  d <- data.frame(PC1 = pca$x[, 1], PC2 = pca$x[, 2], group = metadata$group,
+    batch = metadata$study, sample = rownames(metadata))
+  plot1 <- ggplot(d, aes(PC1, PC2, color = batch)) +
+    geom_point(size = 2.5, alpha = 0.85) +
+    labs(x = paste0("PC1 (", pv[1], "%)"),
+         y = paste0("PC2 (", pv[2], "%)"),
+         title = title) + theme_bw()
+  plot2 <- ggplot(d, aes(PC1, PC2, color = group)) +
+    geom_point(size = 2.5, alpha = 0.85) +
+    scale_color_manual(values = c("AD" = "red", "control" = "purple")) +
+    labs(x = paste0("PC1 (", pv[1], "%)"),
+         y = paste0("PC2 (", pv[2], "%)"),
+         title = title) + theme_bw()
+  print(plot1)
+  print(plot2)
+}
+data <- DGEList(counts = counts)
+data <- calcNormFactors(data, method = "TMM")
+logcpm <- cpm(data, log = TRUE)
+plot_pca(logcpm, metadata, "Raw LogCPMs")
+```
+
+```{r, fig.width = 6, fig.height = 4}
+design <- model.matrix(~ group, data = metadata)
+correct_logcpm <- removeBatchEffect(logcpm, batch = metadata$study, design = design)
+plot_pca(correct_logcpm, metadata, "After Batch Correction")
+samples <- metadata$sample_id[metadata$study != "burgos_dbgap"]
+plot_pca(correct_logcpm[, samples], metadata[samples, ], "After Batch Correction (no burgos_dbgap)")
+write_tsv(as.data.frame(correct_logcpm), "combined_corrected_data.tsv")
+```
+
+```{r, fig.width = 6, fig.height = 4}
+plot_pca <- function(data, metadata, title, ntop = 2000) {
+  vars <- rowVars(data)
+  top <- order(vars, decreasing = TRUE)[seq_len(min(ntop, length(vars)))]
+  pca <- prcomp(t(data[top, ]), center = TRUE, scale. = FALSE)
+  pv <- round(100 * pca$sdev^2 / sum(pca$sdev^2), 1)
+  d <- data.frame(PC1 = pca$x[, 1], PC2 = pca$x[, 2], group = metadata$group,
+    batch = metadata$study, sample = rownames(metadata))
+  plot1 <- ggplot(d, aes(PC1, PC2, color = batch)) +
+    geom_point(size = 2.5, alpha = 0.85) +
+    xlim(-25, 27.5) + ylim(-10, 15) +
+    labs(x = paste0("PC1 (", pv[1], "%)"),
+         y = paste0("PC2 (", pv[2], "%)"),
+         title = title) + theme_bw()
+  plot2 <- ggplot(d, aes(PC1, PC2, color = group)) +
+    geom_point(size = 2.5, alpha = 0.85) +
+    xlim(-25, 27.5) + ylim(-10, 15) +
+    scale_color_manual(values = c("AD" = "red", "control" = "purple")) +
+    labs(x = paste0("PC1 (", pv[1], "%)"),
+         y = paste0("PC2 (", pv[2], "%)"),
+         title = title) + theme_bw()
+  print(plot1)
+  print(plot2)
+}
+burgos_logcpm <- cpm(as.matrix(burgos_counts), log = TRUE)
+silver_logcpm <- cpm(as.matrix(silver_counts), log = TRUE)
+toden_logcpm <- cpm(as.matrix(toden_counts), log = TRUE)
+burgos_scaled_logcpm <- t(scale(t(burgos_logcpm)))
+silver_scaled_logcpm <- t(scale(t(silver_logcpm)))
+toden_scaled_logcpm <- t(scale(t(toden_logcpm)))
+scaled_logcpm <- cbind(burgos_scaled_logcpm, silver_scaled_logcpm, toden_scaled_logcpm)
+samples <- intersect(colnames(scaled_logcpm), rownames(metadata))
+scaled_logcpm <- as.matrix(scaled_logcpm[, samples])
+plot_pca(scaled_logcpm, metadata[samples, ], "After Z-Scoring within Dataset")
+write_tsv(as.data.frame(scaled_logcpm), "combined_scaled_data.tsv")
+```
